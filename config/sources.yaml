@@ -1,0 +1,45 @@
+# Each source is independently enabled. Adapters fetch and parse only; they never score or store.
+# Sources marked `fallback: true` only run when every primary source failed or returned nothing.
+
+defaults:
+  request_delay_seconds: 0.5
+  timeout_seconds: 60
+  retries: 2
+
+sources:
+  etenders_portal:
+    enabled: true
+    adapter: tender_scout.adapters.etenders_portal:ETendersPortalAdapter
+    page_size: 1000
+    notes: >
+      National Treasury eTenders portal (www.etenders.gov.za), the listing feed behind
+      "Tender Opportunities". All organs of state (national, provincial, municipal, SOEs such as
+      Eskom, Transnet, SANRAL, Rand Water) must advertise here. Returns every open tender with
+      province, category, briefing session, contact person and documents. No key, no login.
+
+  etenders_ocds:
+    enabled: true
+    fallback: true
+    adapter: tender_scout.adapters.etenders_ocds:ETendersOcdsAdapter
+    lookback_days: 30
+    page_size: 10
+    max_requests: 600
+    notes: >
+      National Treasury OCDS open-data API (ocds-api.etenders.gov.za). Same tenders, fewer fields
+      (no province, no briefing session). Some records make the API return HTTP 500 for the whole
+      page, so the adapter uses small pages and retries a failing page one record at a time.
+
+# Considered and not implemented (yet):
+not_implemented:
+  eskom_tender_bulletin:
+    reason: Eskom tenders are already published on eTenders (250+ open at a time); the bulletin is a JS app.
+  transnet_etenders:
+    reason: Transnet and TNPA tenders are already on eTenders.
+  municipal_websites:
+    reason: >
+      Some municipalities also post RFQs below R30k only on their own site. Add a per-site HTML/PDF
+      adapter here if a specific municipality matters (pattern: Job Scout's sa_pdf_boards adapter).
+  private_sector:
+    reason: >
+      Mines, estates and farms do not use eTenders. Portals such as the mining houses' supplier
+      portals need registration/login and are out of scope for unattended scraping.

@@ -1,0 +1,123 @@
+# Damtech company profile. Everything the scorer knows about the business lives here.
+# Edit this file (not the code) to change what counts as a good tender.
+
+company:
+  name: Damtech
+  website: https://www.dam-tech.co.za
+  bbbee_level: 4
+  # CIDB grading once registered, e.g. ["2CE", "1GB", "2SQ"]. Empty = not registered.
+  # Tenders that require a grading Damtech does not hold are kept but flagged and scored down.
+  cidb_gradings: []
+
+geography:
+  # All of South Africa is searched; these provinces get a score boost.
+  preferred_provinces: [Gauteng, Western Cape]
+  # "National" tenders are issued by national departments/SOEs; the site can be anywhere.
+  national_bonus: true
+  # Provinces to drop completely (leave empty to keep the whole country).
+  excluded_provinces: []
+
+# Service matching. Patterns are case-insensitive Python regular expressions matched against
+# the tender description + special conditions. A tender needs at least one service hit to be kept.
+services:
+  core:
+    weight: 50
+    patterns:
+      waterproofing: '\bwater[\s-]?proof\w*'
+      dam lining: '\bdam\s+lin(?:ing|ers?)\b|\blin(?:ing|e)\s+(?:of\s+)?(?:the\s+)?(?:\w+\s+){0,3}dams?\b'
+      geomembrane / HDPE / PVC liner: '\b(?:geo[\s-]?membranes?|geosynthetic\w*|hdpe\s+(?:lin\w*|membranes?|sheet\w*)|pvc\s+(?:lin\w*|membranes?))\b'
+      liner: '\bliners?\b(?!\s+(?:bags?|bin))'
+      reservoir lining / repair: '\breservoirs?\b[^.;]{0,30}?\b(?:lin(?:ing|ed|er)\w*|repair\w*|rehabilitat\w*|refurbish\w*|seal\w*|leak\w*|crack\w*)|\b(?:lin(?:ing|e)|repair\w*|rehabilitat\w*|refurbish\w*|seal\w*)\b[^.;]{0,50}?\breservoirs?\b'
+      torch-on / bitumen membrane: '\btorch[\s-]?on\b|\bbitum\w*\s+membranes?\b|\bmembrane\s+(?:roof\w*|waterproof\w*)'
+      damp proofing: '\bdamp[\s-]?proof\w*|\brising\s+damp\b'
+      roof leaks / sealing: '\broof\w*\b[^.;]{0,20}?\b(?:leak\w*|seal\w*|waterproof\w*)|\bleak\w*\s+roofs?\b|\bre-?roof\w*'
+      steel water tanks / reservoirs: '\b(?:steel|corrugated|galvani[sz]ed|zincalume|sectional)\s+(?:water\s+)?(?:storage\s+)?(?:tanks?|reservoirs?)\b'
+      dam / pond repair or construction: '\b(?:lin(?:ing|e)|repair\w*|rehabilitat\w*|remedial|refurbish\w*|construct\w*|seal\w*)\b[^.;]{0,40}?\b(?:dams?|ponds?|lagoons?)\b(?!\s+(?:project|near|in|at)\b)|\b(?:dams?|ponds?|lagoons?)\s+(?:lin\w*|repair\w*|rehabilitat\w*|seal\w*)'
+      concrete waterproofing / sealing: '\bconcrete\s+(?:repair\w*|seal\w*|crack\w*)|\bcrack\s+(?:repair|seal\w*|inject\w*)|\bjoint\s+seal\w*'
+  adjacent:
+    weight: 25
+    patterns:
+      roof repair / maintenance: '\broof\w*\b[^.;]{0,20}?\b(?:repair\w*|maint\w*|refurb\w*|replace\w*|renov\w*)|\b(?:repair\w*|maint\w*|refurb\w*|replace\w*)\b[^.;]{0,60}?\broofs?\b(?!\s+ventilat)'
+      polluted / ash dams (related): '\b(?:pollution\s+control|evaporation|ash|return\s+water|attenuation|storm\s?water)\s+dams?\b'
+      water storage tanks: '\bwater\s+(?:storage\s+)?tanks?\b|\bjojo\b|\b(?:water|rain\s?water)\s+harvest\w*'
+      reservoir construction / upgrade: '\b(?:construct\w*|build\w*|upgrad\w*|new|install\w*)\s+(?:of\s+)?(?:an?\s+|the\s+)?(?:\w+\s+){0,3}reservoirs?\b|\breservoirs?\s+(?:construct\w*|upgrad\w*|maint\w*)'
+      canals / channels lining: '\b(?:canals?|furrows?|channels?)\s+(?:lin\w*|repair\w*|rehabilit\w*)'
+      civil works: '\bcivil\s+(?:works?|construction|engineering\s+works?|maintenance)\b'
+      building maintenance / repairs: '\b(?:building|facility|facilities)\s+(?:repairs?|maintenance|refurbish\w*|renovation\w*)\b|\brepairs?\s+and\s+(?:maintenance|renovation)\b'
+      leak repair: '\bleak\w*\s+repair\w*|\brepair\w*\s+(?:of\s+)?leak\w*'
+  # Extra points per additional distinct service hit, capped.
+  extra_hit_points: 5
+  extra_hit_cap: 10
+
+# Procurement categories on eTenders that fit construction/repair work (case-insensitive substring).
+good_categories:
+  points: 10
+  match: [construction, civil, "services: building", "services to buildings", specialised construction, "services: civil"]
+
+# Any of these anywhere in the description kills the tender (false-positive guards).
+exclude_patterns:
+  - '\bproof[\s-]?read\w*'
+  - '\bwater\s+tankers?\b|\btankers?\b'
+  - '\becmo\b|\bmedical\b|\bpharmac\w*'
+  - '\bprint(?:ing)?\b.*\breport\b|\bannual\s+report\b'
+  - '\bbin\s+liners?\b|\brefuse\s+bags?\b'
+  - '\bmotor\s+vehicles?\b|\bfleet\b'
+  - '\bsecurity\s+(?:services|guarding|patrol)\b'
+  - '\bcatering\b|\baccommodation\b|\btravel\s+agen\w*'
+  - '\binsurance\b|\baudit(?:ing)?\s+services\b|\bvaluation\s+roll'
+  - '\basbestos\b'
+  - '\bprotective\s+clothing\b|\bppe\b|\buniforms?\b'
+  - '\btrain(?:ing)?\s+(?:of\s+)?(?:\w+\s+){0,3}(?:operators?|staff|officials|learners)\b|\bskills?\s+(?:development|programme)\b'
+  - '\bpiezometers?\b|\btransformers?\b|\bsubstations?\b|\bhvac\b|\bventilators?\b'
+  - '\bfuel\s+(?:storage\s+)?tanks?\b'
+  - '\bstationery\b|\bcartridges?\b|\btoner\b'
+  # Notices that are not open opportunities
+  - '^\s*publication\s+of\s+names\s+of\s+bidders'
+  - '\bcancell?ation\s+of\s+(?:tender|bid)\b'
+
+# Supply-only tenders ("supply and delivery of river sand for X Dam project") are dropped unless
+# they involve something Damtech supplies or installs.
+supply_only:
+  pattern: '^\W*(?:\w+\W+){0,4}?supply\W+(?:and|&)\W+deliver\w*'
+  keep_if: '\binstall\w*|\bconstruct\w*|\brepair\w*|\blin(?:ing|ers?)\b|\bmembranes?\b|\bwater[\s-]?proof\w*|\b(?:water|steel|storage)\s+tanks?\b|\breservoirs?\b|\bgeo\w*'
+
+# Other trades: when one of these appears and NO core Damtech service matched, the tender is
+# probably for electricians, plumbers etc. even if it says "repairs and maintenance".
+other_trades:
+  penalty: -25
+  patterns:
+    - '\belectric\w*\b'
+    - '\bplumb\w*\b'
+    - '\bmechanical\b'
+    - '\blifts?\b|\belevators?\b|\bescalators?\b'
+    - '\bair[\s-]?condition\w*|\brefrigerat\w*'
+    - '\bfire\s+(?:protection|suppression|detection)\b|\bsprinklers?\b'
+    - '\bboreholes?\b|\bpumps?\b|\bpump\s+stations?\b'
+    - '\bcleaning\b|\bhorticultur\w*|\bgarden\w*|\blandscap\w*'
+
+# Tender types (eTenders "type" field). RFQs are small, quick and rarely need a high CIDB grade.
+tender_type_points:
+  "Request for Quotation": 5
+  "RFQ Above Threshold": 3
+  "Request for Bid(Open-Tender)": 0
+  "Request for Proposal": 0
+  "Expression of interest": 2
+  "Request for Information": -5
+
+scoring:
+  preferred_province_points: 15
+  national_points: 8
+  no_cidb_required_points: 15
+  cidb_held_points: 15
+  cidb_missing_penalty: -20
+  briefing_missed_penalty: -40
+  briefing_missed_cap: 20   # can't bid after missing a compulsory briefing
+  closing_within_days: 2
+  closing_soon_penalty: -10
+  bands:
+    Hot: 75
+    Strong: 60
+    Possible: 45
+    Low: 0
+  # Lowest band included in the email digest.
+  digest_min_band: Possible

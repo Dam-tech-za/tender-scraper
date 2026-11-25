@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Damtech Tenders</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#101828;--muted:#475467;--line:#e4e7ec;--accent:#0b6bcb;
+--hot:#b42318;--strong:#b54708;--possible:#175cd3;--low:#667085;--chip:#eef2f6;--warn:#fef0c7;--warn-text:#93370d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1419;--card:#171d24;--text:#e6e9ee;--muted:#9aa4b2;
+--line:#2a323c;--accent:#5aa9ff;--chip:#222a33;--warn:#3d2a0a;--warn-text:#fdb022}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{padding:16px;max-width:1100px;margin:0 auto}
+h1{font-size:20px;margin:0 0 4px}
+.sub{color:var(--muted);font-size:13px}
+.controls{position:sticky;top:0;z-index:2;background:var(--bg);border-bottom:1px solid var(--line)}
+.controls-inner{max-width:1100px;margin:0 auto;padding:10px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+input[type=search],select{font:inherit;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--text)}
+input[type=search]{flex:1 1 220px;min-width:0}
+label.tog{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);white-space:nowrap}
+.chips{display:flex;flex-wrap:wrap;gap:6px;width:100%}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--text);border-radius:999px;padding:3px 10px;font-size:13px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+main{max-width:1100px;margin:0 auto;padding:12px 16px 48px}
+.count{color:var(--muted);font-size:13px;margin:4px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin-bottom:10px}
+.card.seen{opacity:.62}
+.top{display:flex;gap:10px;align-items:flex-start}
+.badge{flex:none;color:#fff;border-radius:6px;padding:2px 7px;font-size:12px;font-weight:600;margin-top:2px}
+.Hot{background:var(--hot)}.Strong{background:var(--strong)}.Possible{background:var(--possible)}.Low{background:var(--low)}
+.title{font-weight:600;overflow-wrap:anywhere}
+.meta{color:var(--muted);font-size:13px;margin-top:4px;overflow-wrap:anywhere}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:4px 16px;margin-top:8px;font-size:13px}
+.grid b{color:var(--muted);font-weight:500}
+.warn{display:inline-block;background:var(--warn);color:var(--warn-text);border-radius:6px;padding:1px 7px;font-size:12px;margin:6px 6px 0 0}
+.why{font-size:13px;color:var(--muted);margin-top:8px}
+.docs{font-size:13px;margin-top:6px;overflow-wrap:anywhere}
+a{color:var(--accent)}
+.actions{display:flex;gap:8px;margin-top:10px}
+.actions button{font:inherit;font-size:13px;padding:4px 10px;border-radius:7px;border:1px solid var(--line);background:var(--chip);color:var(--text);cursor:pointer}
+.actions button[aria-pressed=true]{background:var(--accent);color:#fff;border-color:var(--accent)}
+.empty{color:var(--muted);padding:40px 0;text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>Damtech tender dashboard</h1>
+  <div class="sub" id="sub"></div>
+</header>
+<div class="controls"><div class="controls-inner">
+  <input type="search" id="q" placeholder="Search title, entity, tender number…" aria-label="Search">
+  <select id="band" aria-label="Minimum band">
+    <option value="Hot">Hot only</option><option value="Strong">Strong and up</option>
+    <option value="Possible" selected>Possible and up</option><option value="Low">Everything</option>
+  </select>
+  <select id="closing" aria-label="Closing within">
+    <option value="">Any closing date</option><option value="7">Closing within 7 days</option>
+    <option value="14">Within 14 days</option><option value="30">Within 30 days</option>
+  </select>
+  <label class="tog"><input type="checkbox" id="nocidb"> No CIDB needed</label>
+  <label class="tog"><input type="checkbox" id="biddable" checked> Hide missed briefings</label>
+  <label class="tog"><input type="checkbox" id="hideseen"> Hide seen</label>
+  <label class="tog"><input type="checkbox" id="starred"> Interested only</label>
+  <div class="chips" id="provinces" role="group" aria-label="Provinces"></div>
+</div></div>
+<main>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+</main>
+<script>
+const DATA = /*__DATA__*/null;
+const BANDS = ["Hot","Strong","Possible","Low"];
+const store = {
+  get(k){try{return JSON.parse(localStorage.getItem(k)||"{}")}catch(e){return {}}},
+  set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}
+};
+let seen = store.get("ts_seen"), star = store.get("ts_star");
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const fmt = iso => iso ? new Date(iso).toLocaleString("en-ZA",{weekday:"short",day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit",timeZone:"Africa/Johannesburg"}) : "not stated";
+const daysLeft = iso => iso ? Math.ceil((new Date(iso) - Date.now())/86400000) : null;
+
+const tenders = DATA.tenders;
+const meta = DATA.meta || {};
+$("sub").textContent = `${tenders.length} matching of ${meta.open_tenders_scanned ?? "?"} open tenders scanned · updated ${fmt(meta.generated_at)} · source: National Treasury eTenders`;
+
+const preferred = new Set(meta.preferred_provinces || []);
+const provinces = [...new Set(tenders.map(t => t.province || "Unknown"))].sort((a,b) => (preferred.has(b)-preferred.has(a)) || a.localeCompare(b));
+const activeProv = new Set();
+for (const p of provinces) {
+  const b = document.createElement("button");
+  b.className = "chip"; b.type = "button"; b.setAttribute("aria-pressed","false");
+  b.textContent = `${p} (${tenders.filter(t => (t.province||"Unknown")===p).length})`;
+  b.onclick = () => { activeProv.has(p) ? activeProv.delete(p) : activeProv.add(p); b.setAttribute("aria-pressed", activeProv.has(p)); render(); };
+  $("provinces").appendChild(b);
+}
+
+function card(t){
+  const left = daysLeft(t.closing_at);
+  const warns = [];
+  if (t.flags.includes("briefing_missed")) warns.push("Compulsory briefing missed");
+  if (t.flags.includes("cidb_required")) warns.push("Needs CIDB " + t.cidb_required.join(" / "));
+  if (t.flags.includes("closing_soon")) warns.push("Closing soon");
+  if (t.flags.includes("briefing_compulsory")) warns.push("Compulsory briefing " + (t.briefing_at ? fmt(t.briefing_at) : "(date in documents)"));
+  const docs = t.documents.map(d => `<a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.name)}</a>`).join(" · ");
+  const contact = [t.contact_person, t.contact_email && `<a href="mailto:${esc(t.contact_email)}">${esc(t.contact_email)}</a>`, t.contact_phone].filter(Boolean);
+  return `<article class="card ${seen[t.uid] ? "seen" : ""}" data-uid="${esc(t.uid)}">
+    <div class="top"><span class="badge ${esc(t.band)}">${esc(t.band)} ${t.score}</span>
+      <div><div class="title">${esc(t.title)}</div>
+      <div class="meta">${esc(t.entity)} · ${esc(t.province || "Unknown")} · ${esc(t.tender_no)} · ${esc(t.tender_type)}</div></div></div>
+    ${warns.map(w => `<span class="warn">${esc(w)}</span>`).join("")}
+    <div class="grid">
+      <div><b>Closes</b> ${fmt(t.closing_at)}${left !== null ? ` (${left} day${left===1?"":"s"})` : ""}</div>
+      <div><b>Category</b> ${esc(t.category)}</div>
+      ${t.briefing_session ? `<div><b>Briefing</b> ${t.briefing_at ? fmt(t.briefing_at) : "date in documents"}${t.briefing_compulsory ? " (compulsory)" : ""} — ${esc(t.briefing_venue || "see documents")}</div>` : ""}
+      ${t.delivery_location ? `<div><b>Location</b> ${esc(t.delivery_location)}</div>` : ""}
+      ${contact.length ? `<div><b>Contact</b> ${contact.map((c,i) => i===1 ? c : esc(c)).join(" · ")}</div>` : ""}
+      ${t.e_submission ? `<div><b>Submission</b> e-submission allowed</div>` : ""}
+    </div>
+    <div class="why">Why: ${esc(t.reasons.join("; "))}</div>
+    ${t.conditions ? `<div class="why">Conditions: ${esc(t.conditions.slice(0,400))}${t.conditions.length>400?"…":""}</div>` : ""}
+    <div class="docs">Documents: ${docs || "none listed"} · <a href="${esc(t.url)}" target="_blank" rel="noopener">eTenders</a></div>
+    <div class="actions">
+      <button type="button" data-act="seen" aria-pressed="${!!seen[t.uid]}">${seen[t.uid] ? "Seen" : "Mark seen"}</button>
+      <button type="button" data-act="star" aria-pressed="${!!star[t.uid]}">${star[t.uid] ? "★ Interested" : "☆ Interested"}</button>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const q = $("q").value.trim().toLowerCase();
+  const minIdx = BANDS.indexOf($("band").value);
+  const within = parseInt($("closing").value || "0", 10);
+  const rows = tenders.filter(t => {
+    if (BANDS.indexOf(t.band) > minIdx) return false;
+    if ($("biddable").checked && t.flags.includes("briefing_missed")) return false;
+    if ($("nocidb").checked && t.cidb_required.length) return false;
+    if ($("hideseen").checked && seen[t.uid]) return false;
+    if ($("starred").checked && !star[t.uid]) return false;
+    if (activeProv.size && !activeProv.has(t.province || "Unknown")) return false;
+    if (within) { const d = daysLeft(t.closing_at); if (d === null || d > within) return false; }
+    if (q && !`${t.title} ${t.entity} ${t.tender_no} ${t.category} ${t.conditions}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+  $("count").textContent = `${rows.length} tender${rows.length===1?"":"s"} shown`;
+  $("list").innerHTML = rows.length ? rows.map(card).join("") : `<div class="empty">No tenders match these filters.</div>`;
+}
+
+$("list").addEventListener("click", e => {
+  const btn = e.target.closest("button[data-act]"); if (!btn) return;
+  const uid = btn.closest(".card").dataset.uid;
+  const bag = btn.dataset.act === "seen" ? seen : star;
+  bag[uid] ? delete bag[uid] : bag[uid] = Date.now();
+  store.set("ts_seen", seen); store.set("ts_star", star); render();
+});
+for (const id of ["q","band","closing","nocidb","biddable","hideseen","starred"]) $(id).addEventListener("input", render);
+render();
+</script>
+</body>
+</html>
