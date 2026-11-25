@@ -43,14 +43,19 @@ def test_damtech_services_are_kept(profile, now, title):
     [
         "Design, layout, proofreading and printing of the annual report",
         "Leasing of 25 water tankers for three years",
-        "Supply and delivery of river sand to Midmar access roads project near Midmar Dam",
-        "SUPPLY AND DELIVERY OF BEDDING AND FILTER SAND FOR KWAGGASKLOOF DAM REHABILITATION PROJECT FOR DWS CONSTRUCTION SOUTH",
         "Placement of ECMO membrane oxygenation machines",
         "Supply and delivery of cartridges (stationery) for Ntabelanga Dam",
         "Security services at Die Dam resort",
         "Supply and delivery of bin liners",
         "Publication of Names of Bidders in respect of advertised bids",
         "Provision of ICT network support",
+        "Supply and delivery of laptops for councillors",
+        "Supply and delivery of a pinhole enamel tester",
+        "Supply and delivery of office consumables",
+        "Supply and delivery of sports clothing",
+        "Manufacture and supply of hot reheat bend pipes at Matla Power Station",
+        "Supply of various line hardware on an as and when required basis",
+        "Appointment of a service provider to coordinate and transport the procured business equipment and working tools",
     ],
 )
 def test_false_positives_are_excluded(profile, now, title):
@@ -60,6 +65,65 @@ def test_false_positives_are_excluded(profile, now, title):
 def test_supply_of_damtech_products_is_kept(profile, now):
     t = score(profile, now, title="Supply and delivery of HDPE liners to Farm X")
     assert not t.excluded
+
+
+@pytest.mark.parametrize(
+    "title,group",
+    [
+        ("SUPPLY AND DELIVERY OF FLINT KOTE AND SEALANT PRODUCTS FOR LOWER BERG RIVER", "Damtech product supply"),
+        ("Supply and delivery of 5000L JoJo water tanks", "Damtech product supply"),
+        ("Supply and delivery of waterproofing membrane rolls", "Damtech product supply"),
+        ("THE APPOINTMENT OF ONE SERVICE PROVIDER TO SUPPLY AND DELIVER GENERAL BUILDING MATERIAL", "Building materials supply"),
+        ("THE SUPPLY AND DELIVERY OF BULK CEMENT FOR CONCRETE WORKS IN THE NAMAKWA BULK WATER SUPPLY SCHEME", "Building materials supply"),
+        ("Supply and Delivery of Galvanised Corrugated Metal Roof Sheets for a Three-Year Contract Period", "Building materials supply"),
+        ("Supply of Razor Wire", "Building materials supply"),
+        ("SUPPLY AND DELIVERY OF RIVER SAND TO MIDMAR ACCESS ROADS PROJECT NEAR MIDMAR DAM", "Building materials supply"),
+        ("SUPPLY AND DELIVERY OF BEDDING AND FILTER SAND FOR KWAGGASKLOOF DAM REHABILITATION PROJECT FOR DWS CONSTRUCTION SOUTH", "Building materials supply"),
+        ("Supply and delivery of 110mm uPVC pipes and fittings", "Building materials supply"),
+        ("SUPPLY AND DELIVERY OF COLD MIX ASPHALT BAGS", "Building materials supply"),
+        ("Supply and delivery of bricklaying tools", "Building materials supply"),
+        ("Supply and delivery of personal protective equipment (PPE)", "General supply"),
+        ("Supply and deliver cleaning material products", "General supply"),
+    ],
+)
+def test_supply_tenders_are_matched(profile, now, title, group):
+    t = score(profile, now, title=title)
+    assert not t.excluded, t.reasons
+    assert t.work_type == "Supply & deliver"
+    assert t.match_group == group
+
+
+def test_supply_only_needs_no_cidb(profile, now):
+    t = score(profile, now, title="Supply and delivery of cement", conditions="CIDB grading 3GB or higher")
+    assert "cidb_required" not in t.flags
+    assert any("no CIDB grading needed" in r for r in t.reasons)
+
+
+@pytest.mark.parametrize(
+    "title,work_type",
+    [
+        ("Supply and delivery of building materials", "Supply & deliver"),
+        ("Supply, delivery and installation of 2 x 10kl water tanks", "Supply & install"),
+        ("Repairs of water supply & sewer pipe at Post Office", "Works / services"),
+        ("Procurement of a contractor for construction of a new reservoir", "Works / services"),
+        ("Appointment of a service provider to supply and deliver fencing material", "Supply & deliver"),
+    ],
+)
+def test_work_type(profile, title, work_type):
+    from tender_scout.scoring import classify_work_type
+
+    assert classify_work_type(title, profile) == work_type
+
+
+def test_building_supply_outranks_general_supply(profile, now):
+    building = score(profile, now, title="Supply and delivery of building materials")
+    ppe = score(profile, now, title="Supply and delivery of PPE")
+    assert building.score > ppe.score
+
+
+def test_supply_words_inside_works_titles_do_not_count(profile, now):
+    # "doors" in a works tender is not a supply opportunity
+    assert score(profile, now, title="Refurbishment of sliding doors at the airport").excluded
 
 
 def test_other_trade_maintenance_is_penalised(profile, now):

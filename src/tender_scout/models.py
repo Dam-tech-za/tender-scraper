@@ -52,6 +52,8 @@ class Tender(BaseModel):
     url: str | None = None
 
     # Derived by extract/scoring
+    work_type: str = "Works / services"  # "Supply & deliver" | "Supply & install" | "Works / services"
+    match_group: str | None = None  # best-matching group label, e.g. "Building materials supply"
     cidb_required: list[str] = Field(default_factory=list)  # e.g. ["7CE", "7EP"]
     score: int = 0
     band: str = "Low"

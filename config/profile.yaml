@@ -17,15 +17,20 @@ geography:
   # Provinces to drop completely (leave empty to keep the whole country).
   excluded_provinces: []
 
-# Service matching. Patterns are case-insensitive Python regular expressions matched against
-# the tender description + special conditions. A tender needs at least one service hit to be kept.
+# Service matching. Each group has a weight; a tender scores the weight of the BEST group it hits,
+# plus a few points per extra distinct match. Patterns are case-insensitive Python regular
+# expressions. `match_on: title` looks only at the tender description (safer for short product
+# words); otherwise the special conditions are searched too. A tender needs at least one hit.
 services:
   core:
     weight: 50
+    label: Core service
+    # In a supply-only tender, "dam rehabilitation" etc. describe the project, not Damtech's work.
+    skip_for_work_types: ["Supply & deliver"]
     patterns:
       waterproofing: '\bwater[\s-]?proof\w*'
       dam lining: '\bdam\s+lin(?:ing|ers?)\b|\blin(?:ing|e)\s+(?:of\s+)?(?:the\s+)?(?:\w+\s+){0,3}dams?\b'
-      geomembrane / HDPE / PVC liner: '\b(?:geo[\s-]?membranes?|geosynthetic\w*|hdpe\s+(?:lin\w*|membranes?|sheet\w*)|pvc\s+(?:lin\w*|membranes?))\b'
+      geomembrane / HDPE / PVC liner: '\b(?:geo[\s-]?membranes?|geosynthetic\w*|geotextiles?|hdpe\s+(?:lin\w*|membranes?|sheet\w*)|pvc\s+(?:lin\w*|membranes?))\b'
       liner: '\bliners?\b(?!\s+(?:bags?|bin))'
       reservoir lining / repair: '\breservoirs?\b[^.;]{0,30}?\b(?:lin(?:ing|ed|er)\w*|repair\w*|rehabilitat\w*|refurbish\w*|seal\w*|leak\w*|crack\w*)|\b(?:lin(?:ing|e)|repair\w*|rehabilitat\w*|refurbish\w*|seal\w*)\b[^.;]{0,50}?\breservoirs?\b'
       torch-on / bitumen membrane: '\btorch[\s-]?on\b|\bbitum\w*\s+membranes?\b|\bmembrane\s+(?:roof\w*|waterproof\w*)'
@@ -34,25 +39,81 @@ services:
       steel water tanks / reservoirs: '\b(?:steel|corrugated|galvani[sz]ed|zincalume|sectional)\s+(?:water\s+)?(?:storage\s+)?(?:tanks?|reservoirs?)\b'
       dam / pond repair or construction: '\b(?:lin(?:ing|e)|repair\w*|rehabilitat\w*|remedial|refurbish\w*|construct\w*|seal\w*)\b[^.;]{0,40}?\b(?:dams?|ponds?|lagoons?)\b(?!\s+(?:project|near|in|at)\b)|\b(?:dams?|ponds?|lagoons?)\s+(?:lin\w*|repair\w*|rehabilitat\w*|seal\w*)'
       concrete waterproofing / sealing: '\bconcrete\s+(?:repair\w*|seal\w*|crack\w*)|\bcrack\s+(?:repair|seal\w*|inject\w*)|\bjoint\s+seal\w*'
+
+  # Products Damtech sells: supplying these is as good as installing them.
+  supply_core:
+    weight: 50
+    label: Damtech product supply
+    match_on: title
+    patterns:
+      water tanks: '\bwater\s+(?:storage\s+)?tanks?\b|\bjojo\b|\bstorage\s+tanks?\b(?<!fuel storage tanks)|\b(?:plastic|polyethylene|poly)\s+tanks?\b|\b\d[\d\s,.]*\s*(?:l|kl|litres?|liters?)\s+(?:\w+\s+){0,3}tanks?\b'
+      waterproofing / sealing products: '\bwater[\s-]?proof\w*|\bflint\s?kote\b|\bsealants?\b|\bsealing\s+(?:compound|products?)\b|\bbitum\w*\b(?!\s+treated\s+base)|\bprimers?\b|\bwater[\s-]?proofing\s+(?:materials?|products?)\b'
+      HDPE / PVC sheeting: '\b(?:hdpe|ldpe|pvc|polyethylene|plastic)\s+(?:sheet\w*|lin\w*|membranes?|rolls?)\b|\bdamp[\s-]?proof\s+(?:course|membrane)\b|\bdpc\b|\bdpm\b'
+
+  supply_building:
+    weight: 40
+    label: Building materials supply
+    match_on: title
+    requires_supply: true   # only counts when the tender is actually for supply (not e.g. "refurbish doors")
+    patterns:
+      building materials: '\bbuilding\s+(?:and\s+\w+\s+)?materials?\b|\bconstruction\s+materials?\b|\bhardware\s+(?:materials?|supplies|consumables|items)\b|\bhardware\b(?!\s+(?:and\s+)?(?:software|architecture|infrastructure))(?<!line hardware)'
+      cement / concrete: '\bcement\b|\bready[\s-]?mix\b|\bconcrete\s+(?:products?|blocks?|pipes?|kerbs?|palisade|slabs?|culverts?|manholes?|mix)\b|\bpre-?cast\b'
+      sand / stone / aggregates: '\b(?:river|building|plaster|filter|bedding|pit)\s+sand\b|\bsand\b|\baggregates?\b|\bcrushed\s+stone\b|\bgravel\b|\bG\d\s+material\b|\bdolerite\b'
+      bricks / blocks / paving: '\bbricks?\b(?!\s*lay)|\b(?:concrete|cement|building|maxi|stock|hollow|solid)\s+blocks?\b|\bpav(?:ers?|ing\s+(?:blocks?|bricks?|stones?))\b|\bkerbs?\b'
+      steel / reinforcing: '\breinforc\w*\s+(?:steel|bars?|mesh)\b|\brebar\b|\bbrickforce\b|\b(?:ref|welded)\s+mesh\b|\bstructural\s+steel\b|\bsteel\s+(?:sections?|bars?|plates?|beams?|tubing)\b'
+      roof sheeting / IBR: '\broof(?:ing)?\s+sheet\w*|\bibr\b|\bcorrugated\s+(?:iron|metal|sheets?)\b|\bgutter\w*|\bfascia\w*|\broofing\s+materials?\b'
+      timber / boards: '\btimber\b|\bplywood\b|\bshutter\s?boards?\b|\bdrywall\b|\bgypsum\b|\bceiling\s+boards?\b|\brhino\s?board\b'
+      pipes / fittings: '\b(?:hdpe|upvc|u-pvc|pvc|mpvc|polyethylene|ldpe|poly|galvani[sz]ed|ductile)\s+(?:pipes?|fittings?|pipe\w*)\b|\bpipes?\s+(?:and|&)\s+fittings\b|\b(?:water|sewer|sewerage|irrigation|drainage)\s+pipes?\b|\bplumbing\s+(?:materials?|supplies|consumables|items|fittings)\b|\bsanitary\s?ware\b|\bmanhole\s+(?:covers?|rings?|frames?)\b'
+      fencing materials: '\bfenc(?:e|ing)\s+materials?\b|\bfencing\b|\brazor\s+wire\b|\bbarbed\s+wire\b|\bdiamond\s+mesh\b|\bclear\s?vu\b|\bpalisade\b|\bfence\s+posts?\b|\bgates?\b(?=\s+(?:and|&)\s+fenc)'
+      paint / coatings: '\bpaints?\b(?!\s*ball)|\b(?:roof|floor|waterproof\w*|protective|epoxy|bitumen)\s+coatings?\b|\bplaster\b|\btile\s+adhesive\b|\btiles?\b'
+      building / maintenance consumables: '\b(?:civil|building|hardware|plumbing|construction|maintenance|road|sewer)\s+(?:\w+\s+){0,2}consumables\b'
+      asphalt / road materials: '\bcold[\s-]?(?:mix|premix)\b|\b(?:hot[\s-]?mix\s+)?asphalt\b|\bpremix\b|\broad\s+(?:materials?|aggregates?)\b|\bpothole\s+(?:repair\s+)?materials?\b|\bemulsion\b'
+      tools / equipment: '\b(?:hand\s+)?tools\b(?!\s+of\s+trade)|\bwheelbarrows?\b|\bspades?\b|\bshovels?\b|\bladders?\b|\bscaffold\w*'
+      doors / windows / glass: '\bdoors?\b(?!\s+(?:access|control))|\bwindows?\b(?!\s+(?:server|licen\w*|software))|\bglass\b|\bglazing\b'
+
   adjacent:
     weight: 25
+    label: Related work
+    trade_penalty: true   # "repairs and maintenance" for electricians/plumbers etc. gets the other_trades penalty
+    skip_for_work_types: ["Supply & deliver"]
     patterns:
       roof repair / maintenance: '\broof\w*\b[^.;]{0,20}?\b(?:repair\w*|maint\w*|refurb\w*|replace\w*|renov\w*)|\b(?:repair\w*|maint\w*|refurb\w*|replace\w*)\b[^.;]{0,60}?\broofs?\b(?!\s+ventilat)'
       polluted / ash dams (related): '\b(?:pollution\s+control|evaporation|ash|return\s+water|attenuation|storm\s?water)\s+dams?\b'
-      water storage tanks: '\bwater\s+(?:storage\s+)?tanks?\b|\bjojo\b|\b(?:water|rain\s?water)\s+harvest\w*'
       reservoir construction / upgrade: '\b(?:construct\w*|build\w*|upgrad\w*|new|install\w*)\s+(?:of\s+)?(?:an?\s+|the\s+)?(?:\w+\s+){0,3}reservoirs?\b|\breservoirs?\s+(?:construct\w*|upgrad\w*|maint\w*)'
       canals / channels lining: '\b(?:canals?|furrows?|channels?)\s+(?:lin\w*|repair\w*|rehabilit\w*)'
       civil works: '\bcivil\s+(?:works?|construction|engineering\s+works?|maintenance)\b'
       building maintenance / repairs: '\b(?:building|facility|facilities)\s+(?:repairs?|maintenance|refurbish\w*|renovation\w*)\b|\brepairs?\s+and\s+(?:maintenance|renovation)\b'
       leak repair: '\bleak\w*\s+repair\w*|\brepair\w*\s+(?:of\s+)?leak\w*'
-  # Extra points per additional distinct service hit, capped.
+      fence installation: '\b(?:install\w*|erect\w*|construct\w*)\b[^.;]{0,40}?\bfenc\w*|\bfenc\w*\s+(?:install\w*|erection)'
+
+  # General items that are easy to buy online and resell. Lower weight; set weight: 0 to switch off.
+  supply_general:
+    weight: 20
+    label: General supply
+    match_on: title
+    requires_supply: true
+    patterns:
+      PPE / protective clothing: '\bppe\b|\bpersonal\s+protective\b|\bprotective\s+(?:clothing|equipment|gear|wear)\b|\bsafety\s+(?:boots|shoes|footwear|equipment|gear|clothing|wear)\b|\boveralls?\b|\bgumboots?\b|\bhard\s?hats?\b|\bgloves\b|\breflective\s+vests?\b'
+      safety signage: '\bsafety\s+sign\w*|\bsignage\b|\bsigns\b|\btraffic\s+cones?\b'
+      cleaning materials: '\bcleaning\s+(?:materials?|chemicals?|consumables|products?|equipment)\b|\bhygiene\s+(?:products?|consumables)\b'
+
+  # Extra points per additional distinct match, capped.
   extra_hit_points: 5
   extra_hit_cap: 10
+
+# Work type, shown on every tender. Supply & deliver needs no CIDB grading.
+work_type:
+  # "water supply" / "power supply" are infrastructure, not the verb.
+  supply: '(?<!water\s)(?<!power\s)\b(?:supply|supplies|supplier\w*|deliver\w*|purchas\w*|procure\w*|off-?load\w*)\b(?!\s+scheme)'
+  # When a supply tender also asks for any of these, it becomes "Supply & install" (works rules apply).
+  install: '\binstall\w*|\berect\w*|\bconstruct\w*|\brepair\w*|\bmaint\w*|\brefurbish\w*|\bcommission\w*|\bservicing\b|\bapplication\s+of\b|\bpaint\s+(?:the|one|walls?)\b'
+  # "Procurement of a contractor for construction..." is works, not supply.
+  works_override: '\b(?:appointment|procurement)\s+of\s+(?:an?\s+)?(?:principal\s+)?contractors?\b|\bconstruction\s+of\b|\bpanel\s+of\s+contractors\b'
 
 # Procurement categories on eTenders that fit construction/repair work (case-insensitive substring).
 good_categories:
   points: 10
-  match: [construction, civil, "services: building", "services to buildings", specialised construction, "services: civil"]
+  match: [construction, civil, "services: building", "services to buildings", specialised construction, "services: civil", "supplies: general"]
 
 # Any of these anywhere in the description kills the tender (false-positive guards).
 exclude_patterns:
@@ -66,22 +127,22 @@ exclude_patterns:
   - '\bcatering\b|\baccommodation\b|\btravel\s+agen\w*'
   - '\binsurance\b|\baudit(?:ing)?\s+services\b|\bvaluation\s+roll'
   - '\basbestos\b'
-  - '\bprotective\s+clothing\b|\bppe\b|\buniforms?\b'
+  - '\bcorporate\s+(?:wear|clothing)\b|\bschool\s+uniforms?\b|\bpromotional\b|\bbranding\b|\bsports?\s+(?:clothing|kit|equipment)\b'
+  - '\bfire\s+(?:gear|fighting|department)\b|\bammunition\b|\bpepper\s+spray\b|\btactical\b'
+  # Engineered industrial / electrical parts (power stations, rail, HV), not off-the-shelf supply
+  - '\bturbine\b|\breheat\b|\bash\s+plant\b|\bboiler\b|\bline\s+hardware\b|\bx-arms?\b|\bmonopoles?\b|\bhv\b|\blv\b|\bcircuit\s+breakers?\b|\bcables?\b'
+  - '\blaborator\w*|\blaptops?\b|\bcomputers?\b|\bservers?\b|\bsoftware\b|\bcctv\b|\baccess\s+control\b|\bnetwork\b|\blibrary\s+(?:books?|materials?|prescripts|management|system)\b|\bbooks?\b|\bcalendars?\b'
+  - '\btransport\s+the\s+procured\b|\bhygiene\s+(?:management\s+)?services\b|\bcarnival\b|\btesters?\b(?!,)|\bradiographic\b|\bqueue\s+management\b'
+  - '\bgroceries\b|\bfood\b|\bnursery\s+items\b|\bagricultural\s+inputs\b|\bgym\b|\bplayground\b|\bpark\s+furniture\b|\bchemical\s+toilets?\b'
   - '\btrain(?:ing)?\s+(?:of\s+)?(?:\w+\s+){0,3}(?:operators?|staff|officials|learners)\b|\bskills?\s+(?:development|programme)\b'
   - '\bpiezometers?\b|\btransformers?\b|\bsubstations?\b|\bhvac\b|\bventilators?\b'
   - '\bfuel\s+(?:storage\s+)?tanks?\b'
   - '\bstationery\b|\bcartridges?\b|\btoner\b'
   # Notices that are not open opportunities
-  - '^\s*publication\s+of\s+names\s+of\s+bidders'
+  - '^\W*publication\s+of\s+(?:names|bidders)|\bnotice\s+of\s+awards?\b|^\W*award\s+of\b'
   - '\bcancell?ation\s+of\s+(?:tender|bid)\b'
 
-# Supply-only tenders ("supply and delivery of river sand for X Dam project") are dropped unless
-# they involve something Damtech supplies or installs.
-supply_only:
-  pattern: '^\W*(?:\w+\W+){0,4}?supply\W+(?:and|&)\W+deliver\w*'
-  keep_if: '\binstall\w*|\bconstruct\w*|\brepair\w*|\blin(?:ing|ers?)\b|\bmembranes?\b|\bwater[\s-]?proof\w*|\b(?:water|steel|storage)\s+tanks?\b|\breservoirs?\b|\bgeo\w*'
-
-# Other trades: when one of these appears and NO core Damtech service matched, the tender is
+# Other trades: when one of these appears and the best match is only "Related work", the tender is
 # probably for electricians, plumbers etc. even if it says "repairs and maintenance".
 other_trades:
   penalty: -25
@@ -108,6 +169,7 @@ scoring:
   preferred_province_points: 15
   national_points: 8
   no_cidb_required_points: 15
+  supply_only_points: 15     # supply & deliver: no CIDB needed
   cidb_held_points: 15
   cidb_missing_penalty: -20
   briefing_missed_penalty: -40

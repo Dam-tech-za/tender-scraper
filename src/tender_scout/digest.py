@@ -64,7 +64,7 @@ def _card(t: Tender) -> str:
 <tr><td style="padding:12px 0;border-bottom:1px solid #eaecf0;font-family:Arial,sans-serif;font-size:14px;color:#101828">
 <span style="background:{colour};color:#fff;border-radius:4px;padding:2px 6px;font-size:12px">{e(t.band)} {t.score}</span>
 <b style="margin-left:6px">{e(t.title[:220])}</b><br>
-<span style="color:#475467">{e(t.entity or '')} · {e(t.province or '')} · {e(t.tender_no or '')} · {e(t.tender_type or '')}</span><br>
+<span style="color:#475467">{e(t.work_type)} · {e(t.entity or '')} · {e(t.province or '')} · {e(t.tender_no or '')} · {e(t.tender_type or '')}</span><br>
 <b>Closes:</b> {_fmt(t.closing_at)}{briefing}{cidb}<br>
 <span style="color:#475467">Why: {e('; '.join(t.reasons))}</span><br>
 <b>Documents:</b> {docs}<br>
