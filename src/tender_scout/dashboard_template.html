@@ -30,6 +30,7 @@ main{max-width:1100px;margin:0 auto;padding:12px 16px 48px}
 .badge{flex:none;color:#fff;border-radius:6px;padding:2px 7px;font-size:12px;font-weight:600;margin-top:2px}
 .Hot{background:var(--hot)}.Strong{background:var(--strong)}.Possible{background:var(--possible)}.Low{background:var(--low)}
 .title{font-weight:600;overflow-wrap:anywhere}
+.wt{display:inline-block;border:1px solid var(--line);background:var(--chip);border-radius:6px;padding:0 6px;font-size:12px;margin-left:6px;font-weight:500;color:var(--muted)}
 .meta{color:var(--muted);font-size:13px;margin-top:4px;overflow-wrap:anywhere}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:4px 16px;margin-top:8px;font-size:13px}
 .grid b{color:var(--muted);font-weight:500}
@@ -53,6 +54,10 @@ a{color:var(--accent)}
   <select id="band" aria-label="Minimum band">
     <option value="Hot">Hot only</option><option value="Strong">Strong and up</option>
     <option value="Possible" selected>Possible and up</option><option value="Low">Everything</option>
+  </select>
+  <select id="wtype" aria-label="Work type">
+    <option value="">All work types</option><option value="Supply & deliver">Supply &amp; deliver</option>
+    <option value="Supply & install">Supply &amp; install</option><option value="Works / services">Works / services</option>
   </select>
   <select id="closing" aria-label="Closing within">
     <option value="">Any closing date</option><option value="7">Closing within 7 days</option>
@@ -107,7 +112,7 @@ function card(t){
   const contact = [t.contact_person, t.contact_email && `<a href="mailto:${esc(t.contact_email)}">${esc(t.contact_email)}</a>`, t.contact_phone].filter(Boolean);
   return `<article class="card ${seen[t.uid] ? "seen" : ""}" data-uid="${esc(t.uid)}">
     <div class="top"><span class="badge ${esc(t.band)}">${esc(t.band)} ${t.score}</span>
-      <div><div class="title">${esc(t.title)}</div>
+      <div><div class="title">${esc(t.title)}<span class="wt">${esc(t.work_type)}</span></div>
       <div class="meta">${esc(t.entity)} · ${esc(t.province || "Unknown")} · ${esc(t.tender_no)} · ${esc(t.tender_type)}</div></div></div>
     ${warns.map(w => `<span class="warn">${esc(w)}</span>`).join("")}
     <div class="grid">
@@ -135,12 +140,13 @@ function render(){
   const rows = tenders.filter(t => {
     if (BANDS.indexOf(t.band) > minIdx) return false;
     if ($("biddable").checked && t.flags.includes("briefing_missed")) return false;
-    if ($("nocidb").checked && t.cidb_required.length) return false;
+    if ($("nocidb").checked && t.flags.includes("cidb_required")) return false;
+    if ($("wtype").value && t.work_type !== $("wtype").value) return false;
     if ($("hideseen").checked && seen[t.uid]) return false;
     if ($("starred").checked && !star[t.uid]) return false;
     if (activeProv.size && !activeProv.has(t.province || "Unknown")) return false;
     if (within) { const d = daysLeft(t.closing_at); if (d === null || d > within) return false; }
-    if (q && !`${t.title} ${t.entity} ${t.tender_no} ${t.category} ${t.conditions}`.toLowerCase().includes(q)) return false;
+    if (q && !`${t.title} ${t.entity} ${t.tender_no} ${t.category} ${t.conditions} ${t.services_matched.join(" ")}`.toLowerCase().includes(q)) return false;
     return true;
   });
   $("count").textContent = `${rows.length} tender${rows.length===1?"":"s"} shown`;
@@ -154,7 +160,7 @@ $("list").addEventListener("click", e => {
   bag[uid] ? delete bag[uid] : bag[uid] = Date.now();
   store.set("ts_seen", seen); store.set("ts_star", star); render();
 });
-for (const id of ["q","band","closing","nocidb","biddable","hideseen","starred"]) $(id).addEventListener("input", render);
+for (const id of ["q","band","wtype","closing","nocidb","biddable","hideseen","starred"]) $(id).addEventListener("input", render);
 render();
 </script>
 </body>

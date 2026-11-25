@@ -1,7 +1,8 @@
 # Tender Scout
 
 Automated South African public tender monitoring for **Damtech**: dam lining (HDPE / PVC / torch-on),
-steel water tanks and reservoirs, reservoir repair, concrete / roof / foundation waterproofing and civil works.
+steel water tanks and reservoirs, reservoir repair, concrete / roof / foundation waterproofing and civil works,
+plus **supply & delivery** tenders for building materials and other goods Damtech can source and deliver.
 
 Every weekday morning it scans **every open tender on the National Treasury eTenders portal** (about 2,200
 at any time, from all national and provincial departments, municipalities and SOEs such as Eskom,
@@ -20,18 +21,32 @@ eTenders portal ──► dedupe ──► score 0–100 with reasons ──► 
 1. **Fetch:** one feed returns all currently advertised tenders with province, category, briefing
    session, contact person and document links. If the portal is down, the OCDS open-data API is used
    instead (fewer fields).
-2. **Filter:** keeps tenders that match Damtech's services (`config/profile.yaml`) and drops
-   false positives ("proofreading" is not roofing, "water tankers" are not water tanks, river sand
-   for a DWS dam project is not dam lining).
+2. **Classify and filter:** every tender gets a work type (*Supply & deliver*, *Supply & install* or
+   *Works / services*) and is matched against five groups in `config/profile.yaml`:
+
+   | Group | Weight | Examples |
+   | --- | --- | --- |
+   | Core service | 50 | waterproofing, dam lining, reservoir repair, torch-on, damp proofing |
+   | Damtech product supply | 50 | water tanks (JoJo / steel), Flintkote, sealants, bitumen, HDPE / PVC sheeting, DPC |
+   | Building materials supply | 40 | general building materials, cement, ready-mix, sand, stone, aggregates, bricks, blocks, paving, rebar / mesh, roof sheets / IBR, timber, drywall, HDPE / uPVC pipes and fittings, plumbing and sanitaryware, fencing / razor wire / palisade, paint, tiles, cold-mix asphalt, hand tools, doors / windows |
+   | Related work | 25 | roof repair, building maintenance, civil works, reservoir construction, fence installation |
+   | General supply | 20 | PPE / protective clothing, safety signage, cleaning materials |
+
+   Supply groups only count when the tender is actually for supply ("refurbish sliding doors" is not a
+   door-supply job). For supply-only tenders the project context is ignored, so "river sand for the
+   X Dam rehabilitation project" counts as a sand order, not dam work. False positives are dropped:
+   "proofreading" is not roofing, "water tankers" are not water tanks, a "pinhole enamel tester" is
+   not paint, and engineered power-station parts, ICT, medical and office supplies are excluded.
+   Set any group's `weight: 0` to switch it off.
 3. **Score:** an explainable 0–100 score with written reasons, banded **Hot / Strong / Possible / Low**:
 
    | Rule | Points |
    | --- | --- |
-   | Core Damtech service (waterproofing, dam lining, reservoir repair, steel tanks, torch-on...) | +50 |
-   | Related work only (roof repair, building maintenance, civil works, reservoir construction) | +25 |
-   | Each extra service matched (max +10) | +5 |
-   | Construction / civil / building category | +10 |
+   | Best matching group (see above) | +20 to +50 |
+   | Each extra item matched (max +10) | +5 |
+   | Construction / civil / building / general supplies category | +10 |
    | Gauteng or Western Cape · National | +15 · +8 |
+   | Supply & deliver (no CIDB needed) | +15 |
    | No CIDB grading in the advert | +15 |
    | CIDB grading required that Damtech doesn't hold | −20 (flagged as a subcontract / JV lead) |
    | Request for Quotation | +5 |
@@ -42,13 +57,15 @@ eTenders portal ──► dedupe ──► score 0–100 with reasons ──► 
 4. **Email (weekdays 06:30):** new Possible-and-up tenders, plus reminders for compulsory briefings and
    closing dates in the next 3 days. Each tender is emailed once.
 5. **Dashboard:** a single HTML file attached to the email (and optionally on GitHub Pages). It has search,
-   province / band / closing-date filters, "No CIDB needed", "Hide missed briefings", and per-browser
+   province / band / **work type** / closing-date filters, "No CIDB needed", "Hide missed briefings", and per-browser
    *Seen* and *Interested* markers.
 
 ## CIDB
 
 Damtech is not CIDB-registered yet, so the scorer:
 
+- treats **supply & deliver** tenders as needing no CIDB grading (CIDB grades apply to construction
+  works, not goods). If such an advert mentions CIDB anyway, the reason says to check the documents;
 - ranks tenders that don't mention a CIDB grade highest (RFQs and smaller works usually don't);
 - keeps tenders that need a grade, flagged *"Needs CIDB 7CE: possible subcontract / JV lead"*. The
   big civil and reservoir contracts often need a waterproofing or lining subcontractor;

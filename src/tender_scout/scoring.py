@@ -21,6 +21,26 @@ def _service_hits(text: str, group: dict[str, Any]) -> list[str]:
     return [label for label, pattern in (group.get("patterns") or {}).items() if _compile(pattern).search(text)]
 
 
+WORK_SUPPLY = "Supply & deliver"
+WORK_SUPPLY_INSTALL = "Supply & install"
+WORK_WORKS = "Works / services"
+
+
+def classify_work_type(title: str, profile: dict[str, Any]) -> str:
+    cfg = profile.get("work_type") or {}
+    supply = cfg.get("supply") and _compile(cfg["supply"]).search(title)
+    if not supply:
+        return WORK_WORKS
+    if cfg.get("works_override") and _compile(cfg["works_override"]).search(title):
+        return WORK_WORKS
+    # Only the order itself counts, not the project it is for:
+    # "supply and delivery of sand FOR the X dam rehabilitation project, DWS Construction South".
+    order = re.split(r"\b(?:for|to|at|near|in)\b", title[supply.start():], maxsplit=1, flags=re.I)[0]
+    if cfg.get("install") and _compile(cfg["install"]).search(order):
+        return WORK_SUPPLY_INSTALL
+    return WORK_SUPPLY
+
+
 def excluded_by(text: str, profile: dict[str, Any]) -> str | None:
     for pattern in profile.get("exclude_patterns") or []:
         if _compile(pattern).search(text):
@@ -52,14 +72,6 @@ def score_tender(tender: Tender, profile: dict[str, Any], *, now: datetime | Non
         tender.excluded = True
         tender.reasons = [f"Excluded by pattern {hit}"]
         return tender
-    supply = profile.get("supply_only") or {}
-    if supply.get("pattern") and (m := _compile(supply["pattern"]).search(tender.title)):
-        # Only the item being supplied counts: "supply and delivery of <ITEM> for/to/at <project>".
-        item = re.split(r"\b(?:for|to|at|in|near)\b", tender.title[m.end():], maxsplit=1, flags=re.I)[0]
-        if not (supply.get("keep_if") and _compile(supply["keep_if"]).search(item)):
-            tender.excluded = True
-            tender.reasons = ["Supply-only of materials Damtech does not supply"]
-            return tender
     if tender.province and tender.province in (geo.get("excluded_provinces") or []):
         tender.excluded = True
         tender.reasons = [f"Province {tender.province} excluded"]
@@ -69,27 +81,38 @@ def score_tender(tender: Tender, profile: dict[str, Any], *, now: datetime | Non
         tender.reasons = ["Closing date has passed"]
         return tender
 
-    # 1. Services: does this tender ask for what Damtech does?
-    text = tender.text
-    core = _service_hits(text, services.get("core") or {})
-    adjacent = [h for h in _service_hits(text, services.get("adjacent") or {}) if h not in core]
-    if not core and not adjacent:
+    # 1. Work type, then services: does this tender ask for something Damtech does or supplies?
+    tender.work_type = classify_work_type(tender.title, profile)
+    is_supply = tender.work_type in (WORK_SUPPLY, WORK_SUPPLY_INSTALL)
+    best_weight, best_group, matched = None, None, []
+    for name, group in services.items():
+        if not isinstance(group, dict) or not int(group.get("weight", 0)):
+            continue
+        if group.get("requires_supply") and not is_supply:
+            continue
+        if tender.work_type in (group.get("skip_for_work_types") or []):
+            continue
+        haystack = tender.title if group.get("match_on") == "title" else tender.text
+        hits = [h for h in _service_hits(haystack, group) if h not in matched]
+        if not hits:
+            continue
+        matched.extend(hits)
+        if best_weight is None or int(group["weight"]) > best_weight:
+            best_weight, best_group = int(group["weight"]), (name, group)
+        reasons.append(f"{group.get('label', name)}: {', '.join(hits)}")
+    if best_group is None:
         tender.excluded = True
-        tender.reasons = ["No Damtech service matched"]
+        tender.reasons = ["No Damtech service or product matched"]
         return tender
-    if core:
-        score += int((services.get("core") or {}).get("weight", 50))
-        reasons.append(f"Core service: {', '.join(core)}")
-    else:
-        score += int((services.get("adjacent") or {}).get("weight", 25))
-        reasons.append(f"Related work: {', '.join(adjacent)}")
-    extra = max(0, len(core) + len(adjacent) - 1) * int(services.get("extra_hit_points", 5))
+    score += best_weight
+    extra = max(0, len(matched) - 1) * int(services.get("extra_hit_points", 5))
     score += min(extra, int(services.get("extra_hit_cap", 10)))
-    tender.services_matched = core + adjacent
+    tender.services_matched = matched
+    tender.match_group = best_group[1].get("label", best_group[0])
 
     # Generic "repairs and maintenance" for another trade (electrical, plumbing, HVAC...).
     trades = profile.get("other_trades") or {}
-    if not core:
+    if best_group[1].get("trade_penalty"):
         trade_hits = [p for p in trades.get("patterns") or [] if _compile(p).search(tender.title)]
         if trade_hits:
             score += int(trades.get("penalty", -25))
@@ -111,10 +134,15 @@ def score_tender(tender: Tender, profile: dict[str, Any], *, now: datetime | Non
         score += int(cfg.get("national_points", 8))
         reasons.append("National tender (site may be anywhere)")
 
-    # 4. CIDB eligibility
+    # 4. CIDB eligibility. Supply & deliver contracts are not construction works: no grading needed.
     tender.cidb_required = extract_cidb(tender.text)
     held = company.get("cidb_gradings") or []
-    if not tender.cidb_required:
+    if tender.work_type == WORK_SUPPLY:
+        score += int(cfg.get("supply_only_points", 15))
+        reasons.append("Supply & deliver: no CIDB grading needed")
+        if tender.cidb_required:
+            reasons.append(f"Advert mentions CIDB {' / '.join(tender.cidb_required)}: check the documents")
+    elif not tender.cidb_required:
         score += int(cfg.get("no_cidb_required_points", 15))
         reasons.append("No CIDB grading mentioned in the advert")
     elif cidb_satisfied(tender.cidb_required, held):
