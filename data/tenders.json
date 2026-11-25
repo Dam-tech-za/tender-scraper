@@ -1,0 +1,2172 @@
+{
+ "meta": {
+  "generated_at": "2026-11-25T09:56:53+02:00",
+  "open_tenders_scanned": 2197,
+  "sources": {
+   "etenders_portal": {
+    "ok": true,
+    "count": 2199,
+    "seconds": 9.3
+   }
+  },
+  "company": "Damtech",
+  "preferred_provinces": [
+   "Gauteng",
+   "Western Cape"
+  ]
+ },
+ "tenders": [
+  {
+   "uid": "etenders:179510",
+   "source": "etenders_portal",
+   "source_id": "179510",
+   "tender_no": "RFQ-ROOF-001",
+   "title": "Steel and Concrete roof waterproofing",
+   "entity": "South African Nuclear Energy Corporation Limited",
+   "province": "North West",
+   "category": "Construction",
+   "tender_type": "Request for Information",
+   "conditions": null,
+   "delivery_location": "R104 Elias Motsoaledi Street (Church Street West Ext)-Pelindaba-Madibeng Municipality-0240",
+   "published_at": "2026-11-23T00:00:00+02:00",
+   "closing_at": "2026-11-27T11:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Buyani Nsibande",
+   "contact_email": "scm@necsa.co.za",
+   "contact_phone": "012-305-6072",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "RFQ-ROOF-001.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9cb88e27-33b2-4c9a-abe1-cd92379246b4.pdf&downloadedFileName=RFQ-ROOF-001.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 75,
+   "band": "Hot",
+   "services_matched": [
+    "waterproofing",
+    "roof leaks / sealing"
+   ],
+   "reasons": [
+    "Core service: waterproofing, roof leaks / sealing",
+    "Category: Construction",
+    "No CIDB grading mentioned in the advert",
+    "Request for Information (-5)"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178596",
+   "source": "etenders_portal",
+   "source_id": "178596",
+   "tender_no": "SGR/AS-AND-WHEN-GEN-BUILDING-MAINT/01/11/2026)",
+   "title": "APPOINT A CONTRACTOR FOR AS AND WHN GENERAL BUILDING MAINTENANCE OF SOUTH GAUTENG REGION FOR A PERIOD OF 24 MONTHS(RE-ADVERT)",
+   "entity": "Passenger Rail Agency of South Africa",
+   "province": "Gauteng",
+   "category": "Services: Building",
+   "tender_type": "Request for Quotation",
+   "conditions": "-HAND DELIVERY ONLY -VALIDITY IS 60 WORKING DAYS EXCLUDING WEEKENDS",
+   "delivery_location": "30 Wolmarans street,Umjantshi house-Braamfontein-Johannesburg-2000",
+   "published_at": "2026-11-17T00:00:00+02:00",
+   "closing_at": "2026-12-01T12:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Thope Maphiri",
+   "contact_email": "Tmaphiri@prasa.com",
+   "contact_phone": "011-013-1687",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Specification_As and When General Building SGR -  2026 Updated doc.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c2d0ac55-acbf-4582-a199-45c795ef7f10.pdf&downloadedFileName=Specification_As%20and%20When%20General%20Building%20SGR%20-%20%202026%20Updated%20doc.pdf"
+    },
+    {
+     "name": "36.2. Master RFQ AS AND WHEN GEN BUILDING.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=0fe250d1-b294-4060-9e88-ab6e4ec32583.pdf&downloadedFileName=36.2.%20Master%20RFQ%20AS%20AND%20WHEN%20GEN%20BUILDING.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 70,
+   "band": "Strong",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Services: Building",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:179677",
+   "source": "etenders_portal",
+   "source_id": "179677",
+   "tender_no": "RFQJW066NS26-27",
+   "title": "Repair of Ffennell Road Round Building (including Telemetry Wing) Roof",
+   "entity": "Johannesburg Water",
+   "province": "Gauteng",
+   "category": "Services to buildings and landscape activities",
+   "tender_type": "Request for Quotation",
+   "conditions": null,
+   "delivery_location": "Robinson 82-Ir-Ffennel ,Johannesburg-Johannesburg-2107",
+   "published_at": "2026-11-24T00:00:00+02:00",
+   "closing_at": "2026-12-09T16:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": null,
+   "briefing_venue": "FFENNELL RD DEPOT, ROUND BUILDING",
+   "contact_person": "Nompumezo Sobhekwa",
+   "contact_email": "nompumezo.mramba@jwater.co.za",
+   "contact_phone": "011-688-1656",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "RFQJW066NS26-27 Repair of Ffennell Road Round Building (including Telemetry Wing) Roof(24 NOV-09 DEC).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c173184a-0b16-4865-9def-8cae01e47cd4.pdf&downloadedFileName=RFQJW066NS26-27%20Repair%20of%20Ffennell%20Road%20Round%20Building%20%28including%20Telemetry%20Wing%29%20Roof%2824%20NOV-09%20DEC%29.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 70,
+   "band": "Strong",
+   "services_matched": [
+    "roof repair / maintenance"
+   ],
+   "reasons": [
+    "Related work: roof repair / maintenance",
+    "Category: Services to buildings and landscape activities",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176939",
+   "source": "etenders_portal",
+   "source_id": "176939",
+   "tender_no": "Bid SAWS-486/26",
+   "title": "Appointment of a suitable qualified panel of General Building Maintenance service providers to assist with general building maintenance for inter alia all SAWS regional offices, radar sites and air quality monitoring stations which are situated in all nine (9) provinces).",
+   "entity": "South African Weather Service",
+   "province": "Gauteng",
+   "category": "Construction of buildings",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "HEAD OFFICE -Centurion Central-Centurion-0046",
+   "published_at": "2026-11-05T00:00:00+02:00",
+   "closing_at": "2026-11-27T11:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Maletsatsi Sekhampu",
+   "contact_email": "tsatsi.sekhampu@weathersa.co.za",
+   "contact_phone": "012-367-6172",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "SAWS-486  General Building Maintenance panel of service providers.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=de77a1a6-18c1-4aaf-9ab7-932bc8852385.pdf&downloadedFileName=SAWS-486%20%20General%20Building%20Maintenance%20panel%20of%20service%20providers.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 65,
+   "band": "Strong",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Construction of buildings",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:179190",
+   "source": "etenders_portal",
+   "source_id": "179190",
+   "tender_no": "ERW2509/03",
+   "title": "THE APPOINTMENT OF A PANEL OF SERVICE PROVIDERS FOR THE CIVIL MAINTENANCE & CONSTRUCTION INCLUDING THE RENTAL OF PLANT, VEHICLES & EQUIPMENT FOR VARIOUS ERWAT SITES OVER A FIXED TERM PERIOD ON AN ‘AS & WHEN REQUIRED’ BASIS",
+   "entity": "Ekurhuleni Water Care Company (ERWAT)",
+   "province": "Gauteng",
+   "category": "Specialised construction activities",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "PLEASE REFER TO ATTACHMENTS",
+   "delivery_location": "Hartebeestfontein Office Park, Bapsfontein Road (R25)-Kaalfontein-Kempton Park-",
+   "published_at": "2026-11-20T00:00:00+02:00",
+   "closing_at": "2027-01-28T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2027-01-20T10:30:00+02:00",
+   "briefing_venue": "https://events.teams.microsoft.com/event/ff4de90f-c120-4f10-80a5-16988e67d185@1d9cdadc-ce7f-46d7-b30",
+   "contact_person": "Phumzile Mdlalose",
+   "contact_email": "Phumzile.Mdlalose@erwat.co.za",
+   "contact_phone": "011-929-7000",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "ERW2509.03 - PLANT, VEHICLES RENTAL.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=0997bc27-df6a-4ba0-b6c0-8e0c349ccdc5.pdf&downloadedFileName=ERW2509.03%20-%20PLANT%2C%20VEHICLES%20RENTAL.pdf"
+    },
+    {
+     "name": "Bid doc Equipment Rental 20 Nov 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fdf6f74f-486d-4bca-8e44-e66baf505435.pdf&downloadedFileName=Bid%20doc%20Equipment%20Rental%2020%20Nov%202026.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 65,
+   "band": "Strong",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Specialised construction activities",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing on 20 Jan 10:30"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:175483",
+   "source": "etenders_portal",
+   "source_id": "175483",
+   "tender_no": "ATNS/RFP02/08/2026/27/FM-FAPE-BUILDING MAINTENANCE",
+   "title": "Appointment of a service provider for the Provision of Building Maintenance services at ATNS FAPE and remote sites for a period of five (5) years rate base contract on an as-and when required basis",
+   "entity": "Air Traffic and Navigation Services Company Limited",
+   "province": "National",
+   "category": "Services: Building",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "Allister Miller Drive-Walmer-Gqeberha (Port Elizabeth)-6070",
+   "published_at": "2026-10-23T00:00:00+02:00",
+   "closing_at": "2026-11-30T14:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": "2026-10-29T11:00:00+02:00",
+   "briefing_venue": "Meeting ID: 360 467 242 451 633 Passcode: FW2eC9Ti",
+   "contact_person": "Zanele Mbiza",
+   "contact_email": "Zanelemb@atns.co.za",
+   "contact_phone": "011-607-1000",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "Volume 1A - FAPE Building Maintenance 21_10_26.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=77ef00e0-a92d-41e7-ac40-a5a16482390d.pdf&downloadedFileName=Volume%201A%20-%20FAPE%20Building%20Maintenance%2021_10_26.pdf"
+    },
+    {
+     "name": "ADDENDUM NO 1-FAPE MAINTENANCE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=5b82ced5-cf72-4278-8fc6-c8367e6fc71c.pdf&downloadedFileName=ADDENDUM%20NO%201-FAPE%20MAINTENANCE.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 58,
+   "band": "Possible",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Services: Building",
+    "National tender (site may be anywhere)",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177484",
+   "source": "etenders_portal",
+   "source_id": "177484",
+   "tender_no": "Bid No 24/2026",
+   "title": "BID NO. 24/2026: PANEL OF CONTRACTORS FOR AD-HOC REPAIRS AND MAINTENANCE OF MUNICIPAL BUILDING FACILITIES FOR A PERIOD OF THREE (3) YEARS",
+   "entity": "Sarah Baartman District Municipality",
+   "province": "Eastern Cape",
+   "category": "Construction of buildings",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "32 Govan Mbeki Avenue-South End-Gqeberha-6000",
+   "published_at": "2026-11-10T00:00:00+02:00",
+   "closing_at": "2026-12-11T12:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Ms Sinovuyo Nondlazi",
+   "contact_email": "snondlazi@sbdm.co.za",
+   "contact_phone": "041-508-7335",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Panel Advert.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=ea626ca0-a371-4cfd-855b-336d5966546a.pdf&downloadedFileName=Panel%20Advert.pdf"
+    },
+    {
+     "name": "Repairs and Maintenance of Municipal Facilities.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fc7f58b7-760a-48d2-958e-fdc4ec7588ae.pdf&downloadedFileName=Repairs%20and%20Maintenance%20of%20Municipal%20Facilities.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 50,
+   "band": "Possible",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Construction of buildings",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178333",
+   "source": "etenders_portal",
+   "source_id": "178333",
+   "tender_no": "BS13/10/2026",
+   "title": "RE - ADVERT: APPOINTMENT OF ONE ADDITIONAL SERVICE PROVIDER ON THE PANEL FOR THE REPAIR AND MAINTENANCE OF FIBRE NETWORK FOR A PERIOD OF THIRTY SIX (36) MONTHS AS AND WHEN REQUIRED",
+   "entity": "Steve Tshwete Local Municipality",
+   "province": "Mpumalanga",
+   "category": "Information and communication",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "CONER WALTER SISULU AND WANDERERS AVENUE-MIDDELBURG-MIDDELBURG-1050",
+   "published_at": "2026-11-16T00:00:00+02:00",
+   "closing_at": "2026-12-17T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": "2026-12-01T10:00:00+02:00",
+   "briefing_venue": "Library Auditorium, Gerald Sekoto Library, Civic Center, Cnr Walter Sisulu & Wanderers, Middelburg",
+   "contact_person": "THABO TSHEKO",
+   "contact_email": "thabot@stlm.gov.za",
+   "contact_phone": "013-249-7367",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "advert 3 (1).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=603711b6-e7a9-4f80-a0a9-eca5cde10f1f.pdf&downloadedFileName=advert%203%20%281%29.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 40,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177335",
+   "source": "etenders_portal",
+   "source_id": "177335",
+   "tender_no": "ATNS/RFP03/08/2026/27/FM-FAEL-FAUT-BUILDING MAINTE",
+   "title": "Appointment of a service provider for the Provision of Building Maintenance services at ATNS FAEL, FAUT and remote sites for a period of five (5) years rate base contract on an as-and when required basis",
+   "entity": "Air Traffic and Navigation Services Company Limited",
+   "province": "Eastern Cape",
+   "category": "Services: Professional",
+   "tender_type": "Request for Proposal",
+   "conditions": null,
+   "delivery_location": ", 66 Settlers way road-ATNS Control Tower, King Phalo Airport-East London -5200",
+   "published_at": "2026-11-08T00:00:00+02:00",
+   "closing_at": "2027-01-22T14:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": "2026-11-17T11:00:00+02:00",
+   "briefing_venue": "Meeting ID: 310 039 806 882 755 8 Passcode: 7rh6WY9q",
+   "contact_person": "BRIGHT BLESSIE",
+   "contact_email": "BrightB@atns.co.za",
+   "contact_phone": "011-607-1497",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "Addendum No 1 - Correction of SBD 3.3.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fbc68450-9079-44af-9ac1-013419d5c140.pdf&downloadedFileName=Addendum%20No%201%20-%20Correction%20of%20SBD%203.3.pdf"
+    },
+    {
+     "name": "Annexure A - Correction of SBD 3.3.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4b1bb0bf-3211-4f78-a5e8-27c7f33d1713.pdf&downloadedFileName=Annexure%20A%20-%20Correction%20of%20SBD%203.3.pdf"
+    },
+    {
+     "name": "Volume 1A_FAEL and FAUT.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c1577349-f719-4bd1-8a0a-ef2cd4df01c3.pdf&downloadedFileName=Volume%201A_FAEL%20and%20FAUT.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 40,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176833",
+   "source": "etenders_portal",
+   "source_id": "176833",
+   "tender_no": "ATM 2026/2027-10",
+   "title": "The Afrikaans Language Museum and Monument (ATM) hereby invites quotations for the provision of professional mechanical repair and maintenance services. The purpose of this invitation is to appoint a suitably qualified and experienced service provider to conduct inspections, servicing, preventative maintenance, fault-finding and repairs to ATM vehicles and mechanical equipment for a period of three (3) years.",
+   "entity": "Die Afrikaanse Taal Museum",
+   "province": "Western Cape",
+   "category": "Services: Professional",
+   "tender_type": "Request for Quotation",
+   "conditions": null,
+   "delivery_location": "Pastorie Avenue-Esterville-Paarl-7646",
+   "published_at": "2026-11-03T00:00:00+02:00",
+   "closing_at": "2026-11-27T11:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Fabian Ontong",
+   "contact_email": "fin.assist@taalmuseum.co.za",
+   "contact_phone": "021-872-3441",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "ATM 2026-2027-10 SPECIALISED SERVICES FROM A QUALIFIED MECHANICAL REPAIR AND MAINTENANCE SERVICE PROVIDER FOR THE AFRIKAANS LANGUAGE MUSEUM AND MONUMENT (ATM), PAARL.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=38a3cd7b-b4dc-4911-8bc2-e08c0227e368.pdf&downloadedFileName=ATM%202026-2027-10%20SPECIALISED%20SERVICES%20FROM%20A%20QUALIFIED%20MECHANICAL%20REPAIR%20AND%20MAINTENANCE%20SERVICE%20PROVIDER%20FOR%20THE%20AFRIKAANS%20LANGUAGE%20MUSEUM%20AND%20MONUMENT%20%28ATM%29%2C%20PAARL.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 35,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "Preferred province: Western Cape",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:179678",
+   "source": "etenders_portal",
+   "source_id": "179678",
+   "tender_no": "E3870GXLPMED",
+   "title": "INSTALLATION OF POLLUTION CONTROL DAMS (PCD’S) PUMPS ON ALL DAMS AT MEDUPI POWER STATION",
+   "entity": "ESKOM",
+   "province": "National",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "Stores Building 1st floor Medupi Power Station Steenbokpan Road Lephalale 0555--Stores Building 1st floor Medupi Power Station Steenbokpan Road Lephalale 0555-",
+   "published_at": "2026-11-24T00:00:00+02:00",
+   "closing_at": "2026-12-15T10:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": "2026-12-01T10:00:00+02:00",
+   "briefing_venue": "https://teams.microsoft.com/meet/3442002593290472?p=QjgNtAbmQhP3bu9fvX",
+   "contact_person": "Jabulile seopela",
+   "contact_email": "seopeljj@eskom.co.za",
+   "contact_phone": "014-762-6763",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "240-109253302 _ Quality Control Plan or Inspection Test Plan (QCP or ITP) rev 2.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=916e4a7d-6ebd-42e9-b886-10038136dc34.docx&downloadedFileName=240-109253302%20_%20Quality%20Control%20Plan%20or%20Inspection%20Test%20Plan%20%28QCP%20or%20ITP%29%20rev%202.docx"
+    },
+    {
+     "name": "NEC Document_PCD Revised.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=92888bc7-eb43-4279-9512-2406f0fafdc0.pdf&downloadedFileName=NEC%20Document_PCD%20Revised.pdf"
+    },
+    {
+     "name": "Project Specific Baseline Risk Assessment.xlsx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=94ff942d-a444-4bcd-9323-268d1e529c7b.xlsx&downloadedFileName=Project%20Specific%20Baseline%20Risk%20Assessment.xlsx"
+    },
+    {
+     "name": "241-2022602 Medupi Power Station EC 26027224 Install pumps in all PCDs scope of work Rev 3_signed (002).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=947c8b13-6495-4dcc-8348-3ec735943cb7.pdf&downloadedFileName=241-2022602%20Medupi%20Power%20Station%20EC%2026027224%20Install%20pumps%20in%20all%20PCDs%20scope%20of%20work%20Rev%203_signed%20%28002%29.pdf"
+    },
+    {
+     "name": "Supplier Evaluation Pack for 01 March 2026 to 28 February 2027.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=77ae80a4-3650-47d4-8331-428b451e800e.pdf&downloadedFileName=Supplier%20Evaluation%20Pack%20for%2001%20March%202026%20to%2028%20February%202027.pdf"
+    },
+    {
+     "name": "240-68099512 (Rev 9) Form A Installation of  Pollution control  Dams.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c420acca-118d-4d31-9bd7-45bf8cf1178e.pdf&downloadedFileName=240-68099512%20%28Rev%209%29%20Form%20A%20Installation%20of%20%20Pollution%20control%20%20Dams.pdf"
+    },
+    {
+     "name": "241-2022882 Medupi Power Station Tender Technical Evaluation Strategy for Installation of PCD pumps on all dams EC 26027224 REV 2.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=d294c42c-d343-4e3d-a0ba-4ef1e041ca20.pdf&downloadedFileName=241-2022882%20Medupi%20Power%20Station%20Tender%20Technical%20Evaluation%20Strategy%20for%20Installation%20of%20PCD%20pumps%20on%20all%20dams%20EC%2026027224%20REV%202.pdf"
+    },
+    {
+     "name": "240-77471651 Annexure C1 OHS Tender Evaluation (High risk).docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=982ca4aa-06db-4908-baeb-560e525a4aac.docx&downloadedFileName=240-77471651%20Annexure%20C1%20OHS%20Tender%20Evaluation%20%28High%20risk%29.docx"
+    },
+    {
+     "name": "240-12248652 (Rev 7)_List of Tender Returnables PCDs.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=f3892fff-59ef-443c-8087-8cc4c2be771d.pdf&downloadedFileName=240-12248652%20%28Rev%207%29_List%20of%20Tender%20Returnables%20PCDs.pdf"
+    },
+    {
+     "name": "Supplier Development Localisation  Industrialisation (SDLI) Strategy Installation of Pollution Control Dams (PCDs) Pumps for Bidders.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=8e4482be-fe1d-4f7d-b936-a8fa57951d2c.pdf&downloadedFileName=Supplier%20Development%20Localisation%20%20Industrialisation%20%28SDLI%29%20Strategy%20Installation%20of%20Pollution%20Control%20Dams%20%28PCDs%29%20Pumps%20for%20Bidders.pdf"
+    },
+    {
+     "name": "INVITATION TO TENDER FOR ISTALLATION ON PCDs ON ALL DAMS.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=37a4f046-3ee4-4c0d-b30a-b7e16835bf47.pdf&downloadedFileName=INVITATION%20TO%20TENDER%20FOR%20ISTALLATION%20ON%20PCDs%20ON%20ALL%20DAMS.pdf"
+    },
+    {
+     "name": "240-109253698 CQP Template 2021.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=cd74b227-2669-4139-808b-bb009b9f9159.docx&downloadedFileName=240-109253698%20CQP%20Template%202021.docx"
+    },
+    {
+     "name": "Annexure B - Acknowledgement Form for Eskom SHE Rules and other Requirements.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9f8347ac-e4e3-463f-8a9e-d5f287967649.docx&downloadedFileName=Annexure%20B%20-%20Acknowledgement%20Form%20for%20Eskom%20SHE%20Rules%20and%20other%20Requirements.docx"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 33,
+   "band": "Low",
+   "services_matched": [
+    "polluted / ash dams (related)"
+   ],
+   "reasons": [
+    "Related work: polluted / ash dams (related)",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "Category: Civil engineering",
+    "National tender (site may be anywhere)",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:179521",
+   "source": "etenders_portal",
+   "source_id": "179521",
+   "tender_no": "ATNS/RFP04/11/2026/27-ATA-BUILDING MAINTENANCE",
+   "title": "Appointment of a suitably qualified and experienced service provider to provide plumbing and general building maintenance services at the Aviation Training Academy (ATA) for a period of five (5) years on an as and-when required basis",
+   "entity": "Air Traffic and Navigation Services Company Limited",
+   "province": "National",
+   "category": "Services: Building",
+   "tender_type": "Request for Proposal",
+   "conditions": null,
+   "delivery_location": "Bonaero Drive-Bonaero Park - ATA-Kempton Park-1627",
+   "published_at": "2026-11-23T00:00:00+02:00",
+   "closing_at": "2027-01-27T14:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-30T11:00:00+02:00",
+   "briefing_venue": "ATNS Aviation Training Academy (ATA) 14 Bonaero Drive Bonaero Park Kempton Park Gauteng",
+   "contact_person": "Bright Blessie",
+   "contact_email": "BrightB@atns.co.za",
+   "contact_phone": "011-607-1000",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "Volume 1A - Building Maintenance ATA.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9a52157c-0e53-4bc7-936b-0487529adaa5.pdf&downloadedFileName=Volume%201A%20-%20Building%20Maintenance%20ATA.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 33,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "Category: Services: Building",
+    "National tender (site may be anywhere)",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing on 30 Nov 11:00"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:175430",
+   "source": "etenders_portal",
+   "source_id": "175430",
+   "tender_no": "ELM/5/10/2026T",
+   "title": "PANEL OF THREE SERVICE PROVIDERS TO SERVICING, REPAIRS AND MAINTENANCE OF EMALAHLENI VEHICLES FOR A PERIOD OF 36 MONTHS (AS AN AND WHEN REQUIRED).",
+   "entity": "Emalahleni Local Municipality",
+   "province": "Eastern Cape",
+   "category": "Other service activities",
+   "tender_type": "Request for Proposal",
+   "conditions": null,
+   "delivery_location": "Cacadu Extension-Lady frere-Cacadu-5410",
+   "published_at": "2026-10-23T00:00:00+02:00",
+   "closing_at": "2026-11-26T12:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Mr. Y Sawa",
+   "contact_email": "saway@emalahlenilm.gov.za",
+   "contact_phone": "062-030-7859",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "ADVERT FOR PANEL OF THREE SERVICE PROVIDERS TO SERVICING,REPAIRS AND MAINTENANCE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9e836b63-6679-4607-b953-4c0ed1ffef67.pdf&downloadedFileName=ADVERT%20FOR%20PANEL%20OF%20THREE%20SERVICE%20PROVIDERS%20TO%20SERVICING%2CREPAIRS%20AND%20MAINTENANCE.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 30,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "No CIDB grading mentioned in the advert",
+    "Closes 26 Nov 12:00"
+   ],
+   "flags": [
+    "closing_soon"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178275",
+   "source": "etenders_portal",
+   "source_id": "178275",
+   "tender_no": "Bid SAWS-487/26",
+   "title": "Appointment of a panel of electrical companies with electricians for electrical installations, electrical repairs and maintenance of the SAWS electrical infrastructure on an as-and-when required basis.",
+   "entity": "South African Weather Service",
+   "province": "Gauteng",
+   "category": "Electricity, gas, steam and air conditioning",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "Refer to section 7 of bid document.",
+   "delivery_location": "HEAD OFFICE -Centurion Central-Centurion-0046",
+   "published_at": "2026-11-16T00:00:00+02:00",
+   "closing_at": "2026-12-08T11:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Maletsatsi Sekhampu",
+   "contact_email": "tsatsi.sekhampu@weathersa.co.za",
+   "contact_phone": "012-367-6172",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "SAWS-487  Appointment of a Panel of Electricians.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4d7959a3-9d8b-4495-af65-fa19aa6ca08b.pdf&downloadedFileName=SAWS-487%20%20Appointment%20of%20a%20Panel%20of%20Electricians.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 30,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176456",
+   "source": "etenders_portal",
+   "source_id": "176456",
+   "tender_no": "DWS07-1026 WTE",
+   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR CENTRAL OPERATIONS FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 8CE OR HIGHER ARE ELIGIBLE TO BID",
+   "entity": "Water and Sanitation",
+   "province": "Gauteng",
+   "category": "Services: Civil",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "Lilian Ngoyi Street-Pretoria-Tshwane-0002",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2027-01-14T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-26T10:00:00+02:00",
+   "briefing_venue": "Vaal Dam Area Office, 01 Plot 1 Mckenzie Street, Deneysville",
+   "contact_person": "Mr Charles Mokone",
+   "contact_email": "MokoneC@dws.gov.za",
+   "contact_phone": "066-124-2781",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "DWS07-1026 WTE Advert.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b1d9f728-9e6a-4305-aec3-c47839cd8842.pdf&downloadedFileName=DWS07-1026%20WTE%20Advert.pdf"
+    },
+    {
+     "name": "DWS07-1026 Tender Document Civil Panel Central Operations .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=2260c1f4-a130-468e-8af8-f2c2cff69d75.pdf&downloadedFileName=DWS07-1026%20Tender%20Document%20Civil%20Panel%20Central%20Operations%20.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "8CE"
+   ],
+   "score": 30,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Services: Civil",
+    "Preferred province: Gauteng",
+    "Needs CIDB 8CE: possible subcontract / JV lead",
+    "Compulsory briefing on 26 Nov 10:00"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177742",
+   "source": "etenders_portal",
+   "source_id": "177742",
+   "tender_no": "RFQ  4612/26",
+   "title": "Appointment of a suitable qualified panel of plumbers to assist with plumbing repairs and maintenance services for all South African Weather Service (SAWS) regional offices and radar sites which are situated in all nine (9) provinces.",
+   "entity": "South African Weather Service",
+   "province": "Gauteng",
+   "category": "Services: General",
+   "tender_type": "Request for Quotation",
+   "conditions": null,
+   "delivery_location": "Irene Weather Office Main Road, Irene, within the Agricultural Research Council (ARC) Farm Doornkloo-Centurion,-Centurion,-0157",
+   "published_at": "2026-11-11T00:00:00+02:00",
+   "closing_at": "2026-11-26T11:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Ms.Carol Lekalakala",
+   "contact_email": "Carol.lekalakala@weathersa.co.za",
+   "contact_phone": "012-367-6252",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "RFQ-4612  Appointment of  a panel of plumbing service providers.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4a8ed1ef-fec4-45cb-9124-bcced8e0e46a.pdf&downloadedFileName=RFQ-4612%20%20Appointment%20of%20%20a%20panel%20of%20plumbing%20service%20providers.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 25,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Closes 26 Nov 11:00"
+   ],
+   "flags": [
+    "closing_soon"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:172945",
+   "source": "etenders_portal",
+   "source_id": "172945",
+   "tender_no": "E3308GXMPMAT",
+   "title": "Civil Maintenance and Electrical Contract for Kriel Properties at Matla Power Station for 60 months",
+   "entity": "ESKOM",
+   "province": "Mpumalanga",
+   "category": "Services: Civil",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "Eskom E- tendering site",
+   "delivery_location": "Matla Power Station-Kriel-Kriel-2271",
+   "published_at": "2026-10-05T00:00:00+02:00",
+   "closing_at": "2026-12-14T10:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": "2026-10-13T10:00:00+02:00",
+   "briefing_venue": "MS TEAMS",
+   "contact_person": "Nkinshi Hlongwa",
+   "contact_email": "Hlongwns@eskom.co.za",
+   "contact_phone": "017-799-3601",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Supplier Evaluation Pack for 01 March 2026 to 28 February 2027.docx (002).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=30357eb9-1768-4f3e-b107-11ab7ddf68d3.pdf&downloadedFileName=Supplier%20Evaluation%20Pack%20for%2001%20March%202026%20to%2028%20February%202027.docx%20%28002%29.pdf"
+    },
+    {
+     "name": "Scope of Work rev 7.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4c59b3a0-7957-4f67-a78d-1f1bebb4ccf0.pdf&downloadedFileName=Scope%20of%20Work%20rev%207.pdf"
+    },
+    {
+     "name": "Eskom_-_Standard_Conditions_of_Tender_-_30_January_2025.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=ab323344-faa2-41f5-b55a-24c16786891d.pdf&downloadedFileName=Eskom_-_Standard_Conditions_of_Tender_-_30_January_2025.pdf"
+    },
+    {
+     "name": "Addendum-E3308GXMPMAT(Civil Maintenance and Electrical Contract for Kriel Properties at Matla Power Station for 60 months).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=efb2742d-ae9a-4ae8-9e23-284bf370ef5f.pdf&downloadedFileName=Addendum-E3308GXMPMAT%28Civil%20Maintenance%20and%20Electrical%20Contract%20for%20Kriel%20Properties%20at%20Matla%20Power%20Station%20for%2060%20months%29.pdf"
+    },
+    {
+     "name": "Addendum-E3308GXMPMAT(Number2).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=6db507b2-c9d7-4d6f-a8ed-4740e0f907e5.pdf&downloadedFileName=Addendum-E3308GXMPMAT%28Number2%29.pdf"
+    },
+    {
+     "name": "NEW BOQ.xlsx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=8565bd94-c4f9-421f-8951-4ff408e7c927.xlsx&downloadedFileName=NEW%20BOQ.xlsx"
+    },
+    {
+     "name": "Non-Disclosure Agreement (NDA) Vendors Template-CIVIL MAINTANANCE AND ELECTRICAL CONTRACT FOR KRIEL PROPERTIES AT MATLA POWER STATION FOR SIXTY (60) MONTHS..pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c17164b7-f3e1-433b-8eaa-64814c595f37.pdf&downloadedFileName=Non-Disclosure%20Agreement%20%28NDA%29%20Vendors%20Template-CIVIL%20MAINTANANCE%20AND%20ELECTRICAL%20CONTRACT%20FOR%20KRIEL%20PROPERTIES%20AT%20MATLA%20POWER%20STATION%20FOR%20SIXTY%20%2860%29%20MONTHS..pdf"
+    },
+    {
+     "name": "Life Saving-Rules.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=48a3278e-abaa-4f45-a076-6bb67dcd1c51.pdf&downloadedFileName=Life%20Saving-Rules.pdf"
+    },
+    {
+     "name": "Eskom Supplier Integrity Pact.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1d3c7de1-2f3e-4230-8192-71acc1447d83.pdf&downloadedFileName=Eskom%20Supplier%20Integrity%20Pact.pdf"
+    },
+    {
+     "name": "Invitation to Tender (ITT)-Civil Maintenance and Electrical Contract for 20.11.2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fe67c033-8654-46bf-af06-74de11ade01b.pdf&downloadedFileName=Invitation%20to%20Tender%20%28ITT%29-Civil%20Maintenance%20and%20Electrical%20Contract%20for%2020.11.2026.pdf"
+    },
+    {
+     "name": "NEC Civil Maintenance and Electrical Contract for Kriel 20.11.2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=f0d15140-f72c-4ddc-bf94-7ea315b17e6e.pdf&downloadedFileName=NEC%20Civil%20Maintenance%20and%20Electrical%20Contract%20for%20Kriel%2020.11.2026.pdf"
+    },
+    {
+     "name": "TECHNICAL EVALUATION CRITERIA FOR KRIEL PROPERTIES 02.11.2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=094f9e29-06b9-45d6-b121-8c2339ca629c.pdf&downloadedFileName=TECHNICAL%20EVALUATION%20CRITERIA%20FOR%20KRIEL%20PROPERTIES%2002.11.2026.pdf"
+    },
+    {
+     "name": "E-Tenderers E-Tendering Training Acknowledgement Form.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=da7116c3-72d9-4035-8dff-9266b5bb1490.pdf&downloadedFileName=E-Tenderers%20E-Tendering%20Training%20Acknowledgement%20Form.pdf"
+    },
+    {
+     "name": "Tender Questions and Answers Template -Civil and Electrical contract 20.11.2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=7eb1ed4d-3dd7-4ee6-a802-9ffa0ce8504c.pdf&downloadedFileName=Tender%20Questions%20and%20Answers%20Template%20-Civil%20and%20Electrical%20contract%2020.11.2026.pdf"
+    },
+    {
+     "name": "Quality.xlsx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=68a92232-9a4c-4b39-80e7-ad72988f195f.xlsx&downloadedFileName=Quality.xlsx"
+    },
+    {
+     "name": "MATLA MAP.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=08665dc4-a034-4e0d-a5bf-c7c42f18649b.pdf&downloadedFileName=MATLA%20MAP.pdf"
+    },
+    {
+     "name": "Supplier Declaration of Interest-CIVIL MAINTANANCE AND ELECTRICAL CONTRACT FOR KRIEL PROPERTIES AT MATLA POWER STATION FOR SIXTY (60) MONTHS..pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=747f5e67-ba97-47df-966b-c9a51d1b56d3.pdf&downloadedFileName=Supplier%20Declaration%20of%20Interest-CIVIL%20MAINTANANCE%20AND%20ELECTRICAL%20CONTRACT%20FOR%20KRIEL%20PROPERTIES%20AT%20MATLA%20POWER%20STATION%20FOR%20SIXTY%20%2860%29%20MONTHS..pdf"
+    },
+    {
+     "name": "E-tendering Help Manual for supplier - 27 January 2025.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=6a8a42da-d969-4414-afd8-cc25aad5c9d5.pdf&downloadedFileName=E-tendering%20Help%20Manual%20for%20supplier%20-%2027%20January%202025.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 25,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "Category: Services: Civil",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178397",
+   "source": "etenders_portal",
+   "source_id": "178397",
+   "tender_no": "QUOTATION 11/2026",
+   "title": "MAINTENANCE AND REPAIRS OF ROBERTSON LIBRARY’S ROOF",
+   "entity": "Langeberg Municipality",
+   "province": "Western Cape",
+   "category": "Construction of buildings",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "AS PER ATTACHED ADVERTISEMENT",
+   "delivery_location": "28 MAIN ROAD-ASHTON-ASHTON-6715",
+   "published_at": "2026-11-16T00:00:00+02:00",
+   "closing_at": "2026-11-27T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-20T11:00:00+02:00",
+   "briefing_venue": "AT 11H00, AT THE ROBERTSON LIBRARY 30 VAN REENEN STREET (OPPOSITE THE POST OFFICE), ROBERTSON, 6705.",
+   "contact_person": "MS FELICIA GUMEDE",
+   "contact_email": "fgumede@langeberg.gov.za",
+   "contact_phone": "023-626-8200",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Quote 11 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=ff08e13a-3959-4d20-8f66-0b9b26ca6029.pdf&downloadedFileName=Quote%2011%202026.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "roof repair / maintenance"
+   ],
+   "reasons": [
+    "Related work: roof repair / maintenance",
+    "Category: Construction of buildings",
+    "Preferred province: Western Cape",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 20 Nov 11:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177102",
+   "source": "etenders_portal",
+   "source_id": "177102",
+   "tender_no": "NRF/SAAO/RFQ/120206",
+   "title": "Appointment of a Panel of Suitably Qualified and Experienced Building Maintenance Contractors to Provide Construction and Maintenance Services at the NRF-SAAO Site in Sutherland, Northern Cape, for a Period of Three (3) Years",
+   "entity": "National Research Foundation",
+   "province": "Western Cape",
+   "category": "Services: Building",
+   "tender_type": "Request for Quotation",
+   "conditions": null,
+   "delivery_location": "Old Fraserburg Road,-Sutherland-Surtherland, Northern Cape-",
+   "published_at": "2026-11-05T00:00:00+02:00",
+   "closing_at": "2026-11-27T16:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-18T08:30:00+02:00",
+   "briefing_venue": "Old Fraserburg Road, Sutherland, Northern Cape, 6920",
+   "contact_person": "SCM",
+   "contact_email": "saao@saao.ac.za",
+   "contact_phone": "021-201-1634",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "RFQ 120206 - Building Maintenance Contract for 3  years.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=7f29598e-4246-4458-b1e7-21a043dfc0a6.pdf&downloadedFileName=RFQ%20120206%20-%20Building%20Maintenance%20Contract%20for%203%20%20years.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Services: Building",
+    "Preferred province: Western Cape",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing was on 18 Nov 08:30: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176970",
+   "source": "etenders_portal",
+   "source_id": "176970",
+   "tender_no": "RFP170/2026",
+   "title": "APPOINTMENT OF A SERVICE PROVIDER TO SUPPLY, DELIVER AND OFFLOAD VARIOUS CONSTRUCTION MATERIALS AND ASSOCIATED ITEMS, ON AN AS- AND-WHEN REQUIRED BASIS FOR THE CONSTRUCTION OF TZANEEN DAM FOR A PERIOD OF TWELVE (12) MONTHS.",
+   "entity": "Development Bank of Southern Africa",
+   "province": "Limpopo",
+   "category": "Services: Professional",
+   "tender_type": "Request for Proposal",
+   "conditions": "Tender documents can be downloaded on DBSA website from 5 November 2026- https://www.dbsa.org/procurement. The closing time for receipt of Tenders is 23h55 on Friday, November 27, 2026.",
+   "delivery_location": "Deer Park Road-Tzaneen Dam (Doornhoek)-Tzaneen-0850",
+   "published_at": "2026-11-05T00:00:00+02:00",
+   "closing_at": "2026-11-27T23:30:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-13T11:00:00+02:00",
+   "briefing_venue": "Tzaneen – Tzaneen Dam (construction of the dam wall). Latitude: 23°47'58.10\"S (approx. coordinates)",
+   "contact_person": "Nokuthula Sangweni",
+   "contact_email": "NokuthulaSCM@dbsa.org",
+   "contact_phone": "011-313-3101",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "RFP170-2026 Q&A #1.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4ab5f10a-82f1-49c2-83cd-73504c715b42.pdf&downloadedFileName=RFP170-2026%20Q%26A%20%231.pdf"
+    },
+    {
+     "name": "BOQ.zip",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=3fb34b74-ab57-49eb-ac99-8f56df1e8bee.zip&downloadedFileName=BOQ.zip"
+    },
+    {
+     "name": "RFP170.2026_Volume 1 of 3_Procedures_09 Nov 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1411eff0-5b8b-496e-a483-a60e6ebf4b0b.pdf&downloadedFileName=RFP170.2026_Volume%201%20of%203_Procedures_09%20Nov%202026.pdf"
+    },
+    {
+     "name": "RFP170.2026 Addendum 01.docx.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=f93b7e5b-f255-47a6-837f-dc2d8bf734d8.pdf&downloadedFileName=RFP170.2026%20Addendum%2001.docx.pdf"
+    },
+    {
+     "name": "RFP170.2026 Tender Documents.zip",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=8f8e852e-14bc-4862-b331-f50999d7ed1a.zip&downloadedFileName=RFP170.2026%20Tender%20Documents.zip"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "dam / pond repair or construction"
+   ],
+   "reasons": [
+    "Core service: dam / pond repair or construction",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 13 Nov 11:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:171561",
+   "source": "etenders_portal",
+   "source_id": "171561",
+   "tender_no": "E3579GXPOU",
+   "title": "REMEDIAL REPAIRS TO THE POLLUTION CONTROL DAMS, FUEL CONTAINMENT AREAS AND ASSOCIATED ENVIRONMENTAL CONTAINMENT INFRASTRUCTURE AT GOURIKWA POWER STATION.",
+   "entity": "ESKOM",
+   "province": "Western Cape",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "Tenders are to be submitted electronically via Eskom E- tendering site by the stipulated closing date and time. Please note it is the responsibility of the supplier to ensure that the tender submission is submitted before the closing time",
+   "delivery_location": "Gourikwa Power Station--Mossel Bay-",
+   "published_at": "2026-09-23T00:00:00+02:00",
+   "closing_at": "2026-11-30T10:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-10-07T10:00:00+02:00",
+   "briefing_venue": "Gourikwa Power Station",
+   "contact_person": "Lishka Gajoo",
+   "contact_email": "gajool@eskom.co.za",
+   "contact_phone": "021-941-5705",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Attachment 13 -  Annexure C1 -Dam Refurbishments for  Gourikwa - 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=e900b628-ccff-4459-9d91-1f83bb554a66.pdf&downloadedFileName=Attachment%2013%20-%20%20Annexure%20C1%20-Dam%20Refurbishments%20for%20%20Gourikwa%20-%202026.pdf"
+    },
+    {
+     "name": "Attachment 24 - Contract Deviations Committee Approval Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=bdeaca12-bb11-493e-ac0d-2477f0f2e602.docx&downloadedFileName=Attachment%2024%20-%20Contract%20Deviations%20Committee%20Approval%20Template.docx"
+    },
+    {
+     "name": "Attachment 17 - PPE NON COMPLIANCE MEMO.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=31a3270a-2fd1-4cf9-8732-27b6677441f5.pdf&downloadedFileName=Attachment%2017%20-%20PPE%20NON%20COMPLIANCE%20MEMO.pdf"
+    },
+    {
+     "name": "Attachment 4A - C1 - C3 ECC3 - Dam Refurbishment - Gourikwa Final Draft.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=82f662f9-a2b3-42ee-aa78-2e8dcb2362cd.docx&downloadedFileName=Attachment%204A%20-%20C1%20-%20C3%20ECC3%20-%20Dam%20Refurbishment%20-%20Gourikwa%20Final%20Draft.docx"
+    },
+    {
+     "name": "Attachment 18 - 32-37 Management of Substance Abuse procedure_Rev5.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c1fb5487-01b1-4b76-868a-3c4f96052738.pdf&downloadedFileName=Attachment%2018%20-%2032-37%20Management%20of%20Substance%20Abuse%20procedure_Rev5.pdf"
+    },
+    {
+     "name": "Attachment 1 - E-Tenderers E-Tendering Training Acknowledgement Form.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1a31ca35-b496-40bd-bd2b-400a7525878d.docx&downloadedFileName=Attachment%201%20-%20E-Tenderers%20E-Tendering%20Training%20Acknowledgement%20Form.docx"
+    },
+    {
+     "name": "Attachment 19 - Life-Saving_Rules Standard.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=e4242986-fb2e-4d3e-8c04-40aad30d41a3.pdf&downloadedFileName=Attachment%2019%20-%20Life-Saving_Rules%20Standard.pdf"
+    },
+    {
+     "name": "Attachment 21 - Eskom_Personal_Protective_Equipment_(PPE).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=d88d8119-150c-41c3-9d6b-459f9fcfb4e0.pdf&downloadedFileName=Attachment%2021%20-%20Eskom_Personal_Protective_Equipment_%28PPE%29.pdf"
+    },
+    {
+     "name": "18.85 - 6134 Section and details Station Waste Skips Containment Area.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=965654dd-e448-45d5-a5c9-4f109a689653.pdf&downloadedFileName=18.85%20-%206134%20Section%20and%20details%20Station%20Waste%20Skips%20Containment%20Area.pdf"
+    },
+    {
+     "name": "Attachment 8 - Remedial repairs GOU List of Tender Returnables Cat 3 Rev 7 (14).xlsx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=3973e52c-d9f3-4a26-81f0-506816371abc.xlsx&downloadedFileName=Attachment%208%20-%20Remedial%20repairs%20GOU%20List%20of%20Tender%20Returnables%20Cat%203%20Rev%207%20%2814%29.xlsx"
+    },
+    {
+     "name": "Attachment 15 - Occupational_Health_and_Safety_Incident_Mngt_Procedure.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=173144f3-1e42-4709-a049-53b461d9726e.pdf&downloadedFileName=Attachment%2015%20-%20Occupational_Health_and_Safety_Incident_Mngt_Procedure.pdf"
+    },
+    {
+     "name": "Attachment 7 - Form A - Remedial Repairs_ANK.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c8019591-e950-4c4b-a62b-5461424d57ef.docx&downloadedFileName=Attachment%207%20-%20Form%20A%20-%20Remedial%20Repairs_ANK.docx"
+    },
+    {
+     "name": "Attachment 10 - Control Quality Plan (CQP) Template 2021.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=34a94f9e-bdc6-4e6e-89db-5d935e1c1483.docx&downloadedFileName=Attachment%2010%20-%20Control%20Quality%20Plan%20%28CQP%29%20Template%202021.docx"
+    },
+    {
+     "name": "Attachment 20 -Driver_and_Vehicle_Safety_Management_Procedure.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fc1ccb56-fb27-4318-8703-703456cc14d7.pdf&downloadedFileName=Attachment%2020%20-Driver_and_Vehicle_Safety_Management_Procedure.pdf"
+    },
+    {
+     "name": "Attachment 25 - Non-Disclosure Agreement (NDA) Vendors Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b6d23244-5c2e-4336-b7e9-8a25679aa32d.docx&downloadedFileName=Attachment%2025%20-%20Non-Disclosure%20Agreement%20%28NDA%29%20Vendors%20Template.docx"
+    },
+    {
+     "name": "Attachment 14 - Baseline Risk Assessment -  Drizit and Fuel tanks refurbishment.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fa1f2908-d054-439a-b0b5-900144e979e9.pdf&downloadedFileName=Attachment%2014%20-%20Baseline%20Risk%20Assessment%20-%20%20Drizit%20and%20Fuel%20tanks%20refurbishment.pdf"
+    },
+    {
+     "name": "Attachment 22 - Occ_Health_and_Safety_Risk_Assessment_Procedure.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=8df5e247-0a13-4f32-9e99-929e194e02cb.pdf&downloadedFileName=Attachment%2022%20-%20Occ_Health_and_Safety_Risk_Assessment_Procedure.pdf"
+    },
+    {
+     "name": "Attachment 23 - Tender Questions and Answers Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=3112174d-b34d-459c-ba4e-98f14a94d239.docx&downloadedFileName=Attachment%2023%20-%20Tender%20Questions%20and%20Answers%20Template.docx"
+    },
+    {
+     "name": "Attachment 5 - Technical Evaluation Criteria - Gourikwa.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=d0557652-166d-4935-9563-9c002726f5e0.pdf&downloadedFileName=Attachment%205%20-%20Technical%20Evaluation%20Criteria%20-%20Gourikwa.pdf"
+    },
+    {
+     "name": "Attachment 9 - Supplier Quality Management Specification (3) (8).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4bc5f0b3-d918-40a1-9781-a167932aa016.pdf&downloadedFileName=Attachment%209%20-%20Supplier%20Quality%20Management%20Specification%20%283%29%20%288%29.pdf"
+    },
+    {
+     "name": "Attachment 16 - 167A-13846- OHS&Q Management Plan.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=001b1982-df72-44ef-92c3-a8a877ff5fe3.pdf&downloadedFileName=Attachment%2016%20-%20167A-13846-%20OHS%26Q%20Management%20Plan.pdf"
+    },
+    {
+     "name": "Attachment 3 - Gourikwa Scope of Work.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=e743034b-e10c-4b7e-a21b-a978951599de.pdf&downloadedFileName=Attachment%203%20-%20Gourikwa%20Scope%20of%20Work.pdf"
+    },
+    {
+     "name": "Attachment 12 - Annexure B Eskom Acknowledgement Form for OHS Legal and Other Requirements.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=21ff9929-c3dc-42a7-bf5d-b6ca20b4a41e.pdf&downloadedFileName=Attachment%2012%20-%20Annexure%20B%20Eskom%20Acknowledgement%20Form%20for%20OHS%20Legal%20and%20Other%20Requirements.pdf"
+    },
+    {
+     "name": "Attachment 2 - E-tendering Help Manual for supplier.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=2f376e77-dad9-401a-8753-cd00afd8b024.docx&downloadedFileName=Attachment%202%20-%20E-tendering%20Help%20Manual%20for%20supplier.docx"
+    },
+    {
+     "name": "Attachment 6 - SDLI Strategy Setting Template for Bidders - Gourikwa Power Station.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=78300110-2c0f-4250-be02-cdd726d5d9c7.pdf&downloadedFileName=Attachment%206%20-%20SDLI%20Strategy%20Setting%20Template%20for%20Bidders%20-%20Gourikwa%20Power%20Station.pdf"
+    },
+    {
+     "name": "E3579GXPOU - Invitation to Tender (ITT) - Gourikwa Power Station (003).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=888ed292-6f93-4bb1-b236-d3fcc8259b2a.pdf&downloadedFileName=E3579GXPOU%20-%20Invitation%20to%20Tender%20%28ITT%29%20-%20Gourikwa%20Power%20Station%20%28003%29.pdf"
+    },
+    {
+     "name": "Attachment 4B - Gourikwa Pricing Schedule.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=2c176ca1-6a71-44f6-b1f8-db5e3e807ce9.pdf&downloadedFileName=Attachment%204B%20-%20Gourikwa%20Pricing%20Schedule.pdf"
+    },
+    {
+     "name": "Attachment 27 - Eskom - Standard Conditions of Tender - 30 January 2025.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=61d4b040-f02b-4f10-870e-de512e15a235.pdf&downloadedFileName=Attachment%2027%20-%20Eskom%20-%20Standard%20Conditions%20of%20Tender%20-%2030%20January%202025.pdf"
+    },
+    {
+     "name": "Attachment 11 - OHS Requirements for Peaking Rev3- Drizit and Fuel tanks refurbishment Final.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=27b9d1ce-8c4e-41b3-b91d-e589268fbd63.pdf&downloadedFileName=Attachment%2011%20-%20OHS%20Requirements%20for%20Peaking%20Rev3-%20Drizit%20and%20Fuel%20tanks%20refurbishment%20Final.pdf"
+    },
+    {
+     "name": "Attachment 26 - Supplier Declaration of Interest Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=634b0608-330e-4989-b283-e5cbca41ea7a.docx&downloadedFileName=Attachment%2026%20-%20Supplier%20Declaration%20of%20Interest%20Template.docx"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "dam / pond repair or construction",
+    "polluted / ash dams (related)"
+   ],
+   "reasons": [
+    "Core service: dam / pond repair or construction",
+    "Category: Civil engineering",
+    "Preferred province: Western Cape",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 07 Oct 10:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:171557",
+   "source": "etenders_portal",
+   "source_id": "171557",
+   "tender_no": "E3555GXPOU",
+   "title": "REMEDIAL REPAIRS TO THE POLLUTION CONTROL DAMS, FUEL CONTAINMENT AREAS AND ASSOCIATED ENVIRONMENTAL CONTAINMENT INFRASTRUCTURE AT ANKERLIG POWER STATION.",
+   "entity": "ESKOM",
+   "province": "Western Cape",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "Tenders are to be submitted electronically via Eskom E- tendering site by the stipulated closing date and time. Please note it is the responsibility of the supplier to ensure that the tender submission is submitted before the closing time.",
+   "delivery_location": "Ankerlig Power Station-Atlantis-Cape Town-7349",
+   "published_at": "2026-09-23T00:00:00+02:00",
+   "closing_at": "2026-12-04T10:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-10-09T10:00:00+02:00",
+   "briefing_venue": "Ankerlig Power Station",
+   "contact_person": "Lishka Gajoo",
+   "contact_email": "gajool@eskom.co.za",
+   "contact_phone": "021-941-5705",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Attachment 26 - Supplier Declaration of Interest Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b39a9cc3-37d8-453e-9667-04f61e58c00b.docx&downloadedFileName=Attachment%2026%20-%20Supplier%20Declaration%20of%20Interest%20Template.docx"
+    },
+    {
+     "name": "Attachment 25 - Non-Disclosure Agreement (NDA) Vendors Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c0f9e057-1e7b-448a-b67a-15d39a4ace05.docx&downloadedFileName=Attachment%2025%20-%20Non-Disclosure%20Agreement%20%28NDA%29%20Vendors%20Template.docx"
+    },
+    {
+     "name": "Attachment 11 - OHS requirements - Ankerlig Power Station.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9ae87dce-92e1-4c5d-b16c-1b697d27dabe.pdf&downloadedFileName=Attachment%2011%20-%20OHS%20requirements%20-%20Ankerlig%20Power%20Station.pdf"
+    },
+    {
+     "name": "Attachment 8 - Remedial repairs ANK List of Tender Returnables Cat 3 Rev 7 (14).xlsx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=746b69ef-1b85-4822-afe9-379d9ff011a0.xlsx&downloadedFileName=Attachment%208%20-%20Remedial%20repairs%20ANK%20List%20of%20Tender%20Returnables%20Cat%203%20Rev%207%20%2814%29.xlsx"
+    },
+    {
+     "name": "Attachment 18 - 32-37 Management of Substance Abuse procedure_Rev5.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=eded110b-cf40-4886-8b66-563a7a1cb09d.pdf&downloadedFileName=Attachment%2018%20-%2032-37%20Management%20of%20Substance%20Abuse%20procedure_Rev5.pdf"
+    },
+    {
+     "name": "Attachment 17 - PPE NON COMPLIANCE MEMO.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fe99ef82-79c4-4e4a-9c84-717bc6130254.pdf&downloadedFileName=Attachment%2017%20-%20PPE%20NON%20COMPLIANCE%20MEMO.pdf"
+    },
+    {
+     "name": "Attachment 14 - Baseline Risk Assessment - Ankerlig Power Station.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=8101f8c3-89f7-4e44-a226-738a9a140d68.pdf&downloadedFileName=Attachment%2014%20-%20Baseline%20Risk%20Assessment%20-%20Ankerlig%20Power%20Station.pdf"
+    },
+    {
+     "name": "E3555GXPOU - Invitation to Tender (ITT) - Ankerlig Power Station (003).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=aad80209-38ba-4e74-b068-8510af0a6b84.pdf&downloadedFileName=E3555GXPOU%20-%20Invitation%20to%20Tender%20%28ITT%29%20-%20Ankerlig%20Power%20Station%20%28003%29.pdf"
+    },
+    {
+     "name": "Attachment 22 - Occ_Health_and_Safety_Risk_Assessment_Procedure.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9858d85a-77a7-4e16-ac19-902a78bdb5b8.pdf&downloadedFileName=Attachment%2022%20-%20Occ_Health_and_Safety_Risk_Assessment_Procedure.pdf"
+    },
+    {
+     "name": "Attachment 19 - Life-Saving_Rules Standard.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=256adfc4-0341-4e2e-b22a-905034f75558.pdf&downloadedFileName=Attachment%2019%20-%20Life-Saving_Rules%20Standard.pdf"
+    },
+    {
+     "name": "Attachment 3 - Ankerlig Scope of Work.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=a6284112-8324-4218-8bd2-9226aaed6aa2.pdf&downloadedFileName=Attachment%203%20-%20Ankerlig%20Scope%20of%20Work.pdf"
+    },
+    {
+     "name": "Attachment 2 - E-tendering Help Manual for supplier.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=913ef3b3-20dc-4c82-95f9-94a18a671878.docx&downloadedFileName=Attachment%202%20-%20E-tendering%20Help%20Manual%20for%20supplier.docx"
+    },
+    {
+     "name": "Attachment 10 - Control Quality Plan (CQP) Template 2021.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=e578595f-015b-4b4f-87d1-a24d330907af.docx&downloadedFileName=Attachment%2010%20-%20Control%20Quality%20Plan%20%28CQP%29%20Template%202021.docx"
+    },
+    {
+     "name": "Attachment 20 -Driver_and_Vehicle_Safety_Management_Procedure.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=cff3db14-9cbb-423c-a42e-a958c350da14.pdf&downloadedFileName=Attachment%2020%20-Driver_and_Vehicle_Safety_Management_Procedure.pdf"
+    },
+    {
+     "name": "Attachment 16 - 167A-13846- OHS&Q Management Plan.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=fcc3537e-dc6c-4bec-961d-b324611193dc.pdf&downloadedFileName=Attachment%2016%20-%20167A-13846-%20OHS%26Q%20Management%20Plan.pdf"
+    },
+    {
+     "name": "Attachment 4B - Ankerlig Pricing Schedule.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=ce79da13-18ba-4c43-8438-bc76b681842d.pdf&downloadedFileName=Attachment%204B%20-%20Ankerlig%20Pricing%20Schedule.pdf"
+    },
+    {
+     "name": "Attachment 1 - E-Tenderers E-Tendering Training Acknowledgement Form.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=46752562-db2d-4202-81f2-bcf3019a7589.docx&downloadedFileName=Attachment%201%20-%20E-Tenderers%20E-Tendering%20Training%20Acknowledgement%20Form.docx"
+    },
+    {
+     "name": "Attachment 7 - Form A - Remedial Repairs_ANK.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=28280be2-9b1c-4e15-ade3-bd51cc4c114e.docx&downloadedFileName=Attachment%207%20-%20Form%20A%20-%20Remedial%20Repairs_ANK.docx"
+    },
+    {
+     "name": "Attachment 4A - ECC3 - Dam Refurbishment - Ankerlig 1 and 2 Final Draft.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=a10778fd-8c59-4030-84a9-bf60e29f498d.docx&downloadedFileName=Attachment%204A%20-%20ECC3%20-%20Dam%20Refurbishment%20-%20Ankerlig%201%20and%202%20Final%20Draft.docx"
+    },
+    {
+     "name": "Attachment 9 - Supplier Quality Management Specification (3) (8).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=abdd8110-d6de-41cb-a192-d5fddae3ece5.pdf&downloadedFileName=Attachment%209%20-%20Supplier%20Quality%20Management%20Specification%20%283%29%20%288%29.pdf"
+    },
+    {
+     "name": "Attachment 21 - Eskom_Personal_Protective_Equipment_(PPE).pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=29b6b7f3-d3e7-4353-9d7c-d7a07d2dbaf0.pdf&downloadedFileName=Attachment%2021%20-%20Eskom_Personal_Protective_Equipment_%28PPE%29.pdf"
+    },
+    {
+     "name": "Attachment 6 - SDLI Strategy Setting Template for Bidders - Ankerlig Power Station.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=008ed406-d4eb-4c83-a31e-d95439f80edb.pdf&downloadedFileName=Attachment%206%20-%20SDLI%20Strategy%20Setting%20Template%20for%20Bidders%20-%20Ankerlig%20Power%20Station.pdf"
+    },
+    {
+     "name": "Attachment 24 - Contract Deviations Committee Approval Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=784e2837-db48-401d-9e71-da3ea77875b2.docx&downloadedFileName=Attachment%2024%20-%20Contract%20Deviations%20Committee%20Approval%20Template.docx"
+    },
+    {
+     "name": "Attachment 23 - Tender Questions and Answers Template.docx",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=3eff4db2-e226-4008-9020-e6b4bbdc7497.docx&downloadedFileName=Attachment%2023%20-%20Tender%20Questions%20and%20Answers%20Template.docx"
+    },
+    {
+     "name": "Attachment 5 - Technical Evaluation Criteria - Ankerlig.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=44c17223-4029-4a2a-8662-e9c80f15f2cb.pdf&downloadedFileName=Attachment%205%20-%20Technical%20Evaluation%20Criteria%20-%20Ankerlig.pdf"
+    },
+    {
+     "name": "Attachment 15 - Occupational_Health_and_Safety_Incident_Mngt_Procedure.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b5884d91-0fc8-462e-a908-ea2acfd36993.pdf&downloadedFileName=Attachment%2015%20-%20Occupational_Health_and_Safety_Incident_Mngt_Procedure.pdf"
+    },
+    {
+     "name": "Attachment 13 - Annecure C1 - Tender Evaluation Template.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9830d3ab-6c79-4274-826c-ee2c5c36bc23.pdf&downloadedFileName=Attachment%2013%20-%20Annecure%20C1%20-%20Tender%20Evaluation%20Template.pdf"
+    },
+    {
+     "name": "Attachment 27 - Eskom - Standard Conditions of Tender - 30 January 2025.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=9f389dd2-ffe4-4ed0-acf4-f608ecddd3ab.pdf&downloadedFileName=Attachment%2027%20-%20Eskom%20-%20Standard%20Conditions%20of%20Tender%20-%2030%20January%202025.pdf"
+    },
+    {
+     "name": "Attachment 12 - Annexure B Eskom Acknowledgement Form.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b99316c8-a739-4f9b-bc3d-f61b6230f149.pdf&downloadedFileName=Attachment%2012%20-%20Annexure%20B%20Eskom%20Acknowledgement%20Form.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "dam / pond repair or construction",
+    "polluted / ash dams (related)"
+   ],
+   "reasons": [
+    "Core service: dam / pond repair or construction",
+    "Category: Civil engineering",
+    "Preferred province: Western Cape",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 09 Oct 10:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176435",
+   "source": "etenders_portal",
+   "source_id": "176435",
+   "tender_no": "SO/098/10/2026",
+   "title": "Appointment of five (5) civil works contractors on a panel basis at SANSA sites Nationwide for a period of five (5) years",
+   "entity": "South African National Space Agency",
+   "province": "National",
+   "category": "Services: Civil",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "For tender annexures, download them on SANSA website under procurement, tender (www.sansa.org.za)",
+   "delivery_location": "Farm No 502 JQ, Hartebeesthoek, Krugersdorp District-Hartebeeshoek -Mogale City-",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2026-12-09T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-17T10:00:00+02:00",
+   "briefing_venue": "SANSA Space Operations Office, Farm JQ 502 Haartebeesthoek, Mogale city, West Rand District, South A",
+   "contact_person": "SCM Department",
+   "contact_email": "spaceops-scm@sansa.org.za",
+   "contact_phone": "012-334-5000",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "J238-02-14-01.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b9f7f11a-7a00-41b2-8151-0d783a6fc80d.pdf&downloadedFileName=J238-02-14-01.pdf"
+    },
+    {
+     "name": "BOQ-2014-10-10 - Scenario B Matjiesfontein (WC).xls",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4af61434-c3dc-4af6-8a8d-14423163a636.xls&downloadedFileName=BOQ-2014-10-10%20-%20Scenario%20B%20Matjiesfontein%20%28WC%29.xls"
+    },
+    {
+     "name": "BOQ-2014-10-10 - Scenario A Hartebeesthoek (GP).xls",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1d0b658c-e020-4c2c-b66d-1c291e281233.xls&downloadedFileName=BOQ-2014-10-10%20-%20Scenario%20A%20Hartebeesthoek%20%28GP%29.xls"
+    },
+    {
+     "name": "J238-02-22-02-001.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=439de072-b975-4520-a2ef-26260e02cff3.pdf&downloadedFileName=J238-02-22-02-001.pdf"
+    },
+    {
+     "name": "J238-02-22-03.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=a99fe6c1-38ba-4493-a9fc-3d9974814246.pdf&downloadedFileName=J238-02-22-03.pdf"
+    },
+    {
+     "name": "J238-02-22-02.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=47ea80e3-a4ee-4189-beba-8956b83e3c2b.pdf&downloadedFileName=J238-02-22-02.pdf"
+    },
+    {
+     "name": "J238-02-22-01.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=01503a03-b24f-49ab-9620-a608b9757c72.pdf&downloadedFileName=J238-02-22-01.pdf"
+    },
+    {
+     "name": "J238-02-10-01.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=699535ad-c75d-4d9c-9363-b1c3ce000b83.pdf&downloadedFileName=J238-02-10-01.pdf"
+    },
+    {
+     "name": "J238-02-10-02.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=bce06011-d19e-45b6-ac28-b24842781da3.pdf&downloadedFileName=J238-02-10-02.pdf"
+    },
+    {
+     "name": "J238-02-14-02.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4440770b-6249-4bab-b872-d1fbb33b544f.pdf&downloadedFileName=J238-02-14-02.pdf"
+    },
+    {
+     "name": "J238-02-22-01-008.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=d89e0776-aacf-4917-926c-d3c33a727575.pdf&downloadedFileName=J238-02-22-01-008.pdf"
+    },
+    {
+     "name": "J238-02-22-01-003.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=5c253665-e849-431c-9281-e56c418ec0fb.pdf&downloadedFileName=J238-02-22-01-003.pdf"
+    },
+    {
+     "name": "SCM-F-10-Bid Document - Civil Works Contractors.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=a96f33cd-11d4-4ae2-ae0f-ed2a789acd40.pdf&downloadedFileName=SCM-F-10-Bid%20Document%20-%20Civil%20Works%20Contractors.pdf"
+    },
+    {
+     "name": "Drawing Register.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=06964023-81d8-4bcd-ae16-efdcdaed9edf.pdf&downloadedFileName=Drawing%20Register.pdf"
+    },
+    {
+     "name": "J238-02-22-01-001.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=81f61cea-3e40-41aa-ac32-f70107dac837.pdf&downloadedFileName=J238-02-22-01-001.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 18,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Services: Civil",
+    "National tender (site may be anywhere)",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 17 Nov 10:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177105",
+   "source": "etenders_portal",
+   "source_id": "177105",
+   "tender_no": "RFQ 16902",
+   "title": "MAINTENANCE AND ENGINEERING BUILDING REFURBISHMENT AT CHIEF DAWID STUURMAN AIRPORT",
+   "entity": "Airports Company of South Africa",
+   "province": "Eastern Cape",
+   "category": "Services: Building",
+   "tender_type": "Request for Quotation",
+   "conditions": "Permit fees will apply. Kindly ensure that all required personal protective equipment (PPE) is worn.",
+   "delivery_location": "Allister Miller Dr-Walmer-Gqeberha-6070",
+   "published_at": "2026-11-06T00:00:00+02:00",
+   "closing_at": "2026-11-27T15:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-18T12:00:00+02:00",
+   "briefing_venue": "Information desk, Chief Dawid Stuurman Airport",
+   "contact_person": "Joseph Rulash",
+   "contact_email": "joseph.rulash@airports.co.za",
+   "contact_phone": "084-434-0582",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "RFQ_16902_Maintenance and Engineering Building Refurbishment at Chief Dawid Stuurman Airport.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=da23eabb-c007-4f70-bc2a-307362d38ce7.pdf&downloadedFileName=RFQ_16902_Maintenance%20and%20Engineering%20Building%20Refurbishment%20at%20Chief%20Dawid%20Stuurman%20Airport.pdf"
+    },
+    {
+     "name": "M&E building refurb functionality .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=afb39c23-3511-492b-a574-3c3e3d7832cb.pdf&downloadedFileName=M%26E%20building%20refurb%20functionality%20.pdf"
+    },
+    {
+     "name": "NEC 3 ECC -M&E Building Refurb Final Final .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=da5c8e3f-9094-44db-a609-821e468af279.pdf&downloadedFileName=NEC%203%20ECC%20-M%26E%20Building%20Refurb%20Final%20Final%20.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 15,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Services: Building",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing was on 18 Nov 12:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178437",
+   "source": "etenders_portal",
+   "source_id": "178437",
+   "tender_no": "E3809DXMPOU",
+   "title": "The Provision of Core Technical Services (Mechanical Building Maintenance Services) on as and when required basis) in LimLanga cluster- Mpumalanga for a period of 60 Month",
+   "entity": "ESKOM",
+   "province": "Mpumalanga",
+   "category": "Other service activities",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "LimLanga cluster- Mpumalanga-Mpumalanga areas Limpopo areas-Mpumalanga areas Limpopo areas-0699",
+   "published_at": "2026-11-16T00:00:00+02:00",
+   "closing_at": "2026-12-15T10:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": "Venue: Online – Microsoft Team LinkJoin: https://teams.microsoft.com/meet/3210409538683484?p=vrLIzZX",
+   "contact_person": "Janine Kiet",
+   "contact_email": "kietjc@eskom.co.za",
+   "contact_phone": "083-463-2108",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Mechanical  Maintenance   tender requirements_.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=f8f0a1c0-06da-4f93-907a-293b1b0a8d74.pdf&downloadedFileName=Mechanical%20%20Maintenance%20%20%20tender%20requirements_.pdf"
+    },
+    {
+     "name": "Invitation to Tender (ITT)  .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=809ef9de-7d4a-4ed0-bfa9-2db766053793.pdf&downloadedFileName=Invitation%20to%20Tender%20%28ITT%29%20%20.pdf"
+    },
+    {
+     "name": "SDL&I Strategy Setting Bidders 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=80c55bd8-a4fc-4a2d-946d-345b90111ff6.pdf&downloadedFileName=SDL%26I%20Strategy%20Setting%20Bidders%202026.pdf"
+    },
+    {
+     "name": "NEC Mechanical building maintenance services to Eskom Distribution Property Management facilities at MOU Lowveld Zone(1).docx 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=3abf2dd3-00d7-48d9-ae9c-6b2e6e1f4db8.pdf&downloadedFileName=NEC%20Mechanical%20building%20maintenance%20services%20to%20Eskom%20Distribution%20Property%20Management%20facilities%20at%20MOU%20Lowveld%20Zone%281%29.docx%202026.pdf"
+    },
+    {
+     "name": "technical evaluation .pdf 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=316820cc-abfc-425b-a7e4-7bd662c835ee.pdf&downloadedFileName=technical%20evaluation%20.pdf%202026.pdf"
+    },
+    {
+     "name": "240-77471499 Annexure B Eskom Acknowledgement Form for OHS Legal and Other Requirements - Rev 4.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4421b7ba-9c7b-455a-b752-a6684e6194b2.pdf&downloadedFileName=240-77471499%20Annexure%20B%20Eskom%20Acknowledgement%20Form%20for%20OHS%20Legal%20and%20Other%20Requirements%20-%20Rev%204.pdf"
+    },
+    {
+     "name": "QUALITY 2026.zip",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=6ff7bab7-183b-49f3-89b1-e755cb388989.zip&downloadedFileName=QUALITY%202026.zip"
+    },
+    {
+     "name": "Mechanical Building Maitenance Environmental Tender Requirements Aug 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=ed391173-e0b7-4d8c-90e8-e87bc48f846e.pdf&downloadedFileName=Mechanical%20Building%20Maitenance%20Environmental%20Tender%20Requirements%20Aug%202026.pdf"
+    },
+    {
+     "name": "NEC-Mechanical building maintenance services to Eskom Distribution Property Management facilities at MOU Highveld Zone(1).docx 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=90f67d3c-ea6d-4942-b958-edd3d86d509a.pdf&downloadedFileName=NEC-Mechanical%20building%20maintenance%20services%20to%20Eskom%20Distribution%20Property%20Management%20facilities%20at%20MOU%20Highveld%20Zone%281%29.docx%202026.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 15,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "No CIDB grading mentioned in the advert"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178140",
+   "source": "etenders_portal",
+   "source_id": "178140",
+   "tender_no": "OVM-19/2026/27",
+   "title": "Installation, Repair and Maintenance of Irrigation Systems in the Overstrand Municipal Area for a Three-Year Contract Period",
+   "entity": "Overstrand Municipality",
+   "province": "Western Cape",
+   "category": "Other service activities",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "1 Magnolia Avenue-Hermanus-Hermanus-7200",
+   "published_at": "2026-11-13T00:00:00+02:00",
+   "closing_at": "2026-12-15T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-24T11:00:00+02:00",
+   "briefing_venue": "MS Teams, the link will be provided to bidders who obtained the tender document",
+   "contact_person": "Liezel S du Preez",
+   "contact_email": "ldupreez@overstrand.gov.za",
+   "contact_phone": "028-313-8000",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "OVM-19.2026.27 ADVERT.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=d749d3b9-9f9e-4e29-9ec7-fb46fa72c52b.pdf&downloadedFileName=OVM-19.2026.27%20ADVERT.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 15,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Preferred province: Western Cape",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 24 Nov 11:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:178218",
+   "source": "etenders_portal",
+   "source_id": "178218",
+   "tender_no": "MEGA/2027/09",
+   "title": "BID FOR THE APPOINTMENT OF A SERVICE PROVIDER TO UNDERTAKE BUILDING REFURBISHMENT, ALTERATIONS AND OFFICE FIT-OUT WORKS FOR THE ESTABLISHMENT OF THE MEGA INVESTA ONE-STOP SHOP",
+   "entity": "Mpumalanga - Mpumalanga Economic Growth Agency (MEGA)",
+   "province": "Mpumalanga",
+   "category": "Construction",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "MEGA Office park, 02 eastern boulevard, Riverside-Riverside-Mbombela-1200",
+   "published_at": "2026-11-13T00:00:00+02:00",
+   "closing_at": "2026-12-08T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-18T11:00:00+02:00",
+   "briefing_venue": "MEGA OFFICE PARK 02 EASTERN BOULEVARD RIVERSIDE MBOMBELA",
+   "contact_person": "Mr E Nyathikazi",
+   "contact_email": "eric.nyathikazi@mega.gov.za",
+   "contact_phone": "013-492-5818",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "MEGA  2027 09 ADDENDUM.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=ea0fffbf-923e-4d25-8027-021bde6feeab.pdf&downloadedFileName=MEGA%20%202027%2009%20ADDENDUM.pdf"
+    },
+    {
+     "name": "MEGA 09.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=a35a7821-71a1-4b60-bee2-da6f10fbcfcd.pdf&downloadedFileName=MEGA%2009.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 10,
+   "band": "Low",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Construction",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 18 Nov 11:00: missed"
+   ],
+   "flags": [
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177819",
+   "source": "etenders_portal",
+   "source_id": "177819",
+   "tender_no": "POP 08/2027FY/JPC",
+   "title": "REQUEST FOR PROPOSALS TO BE LISTED IN THE CITY OF JOBURG PROPERTY COMPANY SOC LTD (JPC) PANEL OF CONTRACTORS FOR THE PERIOD OF THREE (03) YEARS STRICTLY FOR WATERPROOFING (SN CATEGORY) CIDB LEVELS 2 TO 4",
+   "entity": "City Of Joburg Property Company (SOC) Ltd",
+   "province": "Gauteng",
+   "category": "Services: General",
+   "tender_type": "Request for Proposal",
+   "conditions": null,
+   "delivery_location": "33 HOOFD FORUM 1 A ENTRENCE -BRAAMFONTEIN -JOHANNESBURG-2017",
+   "published_at": "2026-11-11T00:00:00+02:00",
+   "closing_at": "2027-01-29T10:30:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-20T11:00:00+02:00",
+   "briefing_venue": "Riverlea Community Hall, Corner Avon & Colorado Drive, Riverlea",
+   "contact_person": "SUPPLY CHAIN",
+   "contact_email": "tenders@jhbproperty.co.za",
+   "contact_phone": "010-219-9000",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "POP 08_2027FY_JPC CIDB 2-4 SN .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=e0b2faf8-21ec-4d67-96bd-d0bb2d89b96a.pdf&downloadedFileName=POP%2008_2027FY_JPC%20CIDB%202-4%20SN%20.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "CIDB (grade in documents)"
+   ],
+   "score": 5,
+   "band": "Low",
+   "services_matched": [
+    "waterproofing"
+   ],
+   "reasons": [
+    "Core service: waterproofing",
+    "Preferred province: Gauteng",
+    "Needs CIDB CIDB (grade in documents): possible subcontract / JV lead",
+    "Compulsory briefing was on 20 Nov 11:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:177935",
+   "source": "etenders_portal",
+   "source_id": "177935",
+   "tender_no": "ES/26/ROOF/01",
+   "title": "Provision of Maintenance and Roof Repair Services to ELIDZ buildings",
+   "entity": "Eastern Cape - East London Industrial Development Zone Corporation",
+   "province": "Eastern Cape",
+   "category": "Services: Professional",
+   "tender_type": "Request for Proposal",
+   "conditions": "CIDB 6SN or higher Full bid conditions and documents available from www.elidz.co.za > opportunities > tenders",
+   "delivery_location": "Lower Chester Road-Sunnyridge-East London-5201",
+   "published_at": "2026-11-13T00:00:00+02:00",
+   "closing_at": "2026-12-04T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-24T10:00:00+02:00",
+   "briefing_venue": "Virtually via Microsoft Teams Meeting ID: 330 987 125 209 536 6 and Passcode: Zz9vj2ri",
+   "contact_person": "Anathi Mzantsi",
+   "contact_email": "anathi@elidz.co.za",
+   "contact_phone": "043-702-8258",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Roof Envelope A Final (.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=d1227bd2-ac3e-414a-b52b-18fb1cc6400b.pdf&downloadedFileName=Roof%20Envelope%20A%20Final%20%28.pdf"
+    },
+    {
+     "name": "Roof Envelope B Final.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=49ba95f2-446b-426f-9e8f-ff3480dd49d8.pdf&downloadedFileName=Roof%20Envelope%20B%20Final.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "6SN"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "roof repair / maintenance"
+   ],
+   "reasons": [
+    "Related work: roof repair / maintenance",
+    "Needs CIDB 6SN: possible subcontract / JV lead",
+    "Compulsory briefing was on 24 Nov 10:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:175528",
+   "source": "etenders_portal",
+   "source_id": "175528",
+   "tender_no": "RFB/MW/ES-10/2026-27/01",
+   "title": "THE APPOINTMENT OF CONTRACTOR FOR THE CONSTRUCTION OF A NEW BAKUBUNG RESERVOIR WITH ITS RELATED INFRASTRUCTURE - CIDB Grading 8CE or Higher",
+   "entity": "Magalies Water",
+   "province": "North West",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "Magalies water will hold a virtual Compulsory Briefing meeting. Bidders that are interested to attend the Virtual Compulsory Briefing are requested to send an email to tenders@magalieswater.co.za to be forwarded the virtual meeting link. The closing date for the request to connect to all the Virtual Compulsory Briefing is 30 October 2026 @ 16h00. The Subject of Email “BID DESCRIPTION - BRIEFING”. All prospective Bidders will be sent the link on the 01 November 2026.",
+   "delivery_location": "38 Heystek-Rustenburg-Rustenburg-0299",
+   "published_at": "2026-10-23T00:00:00+02:00",
+   "closing_at": "2026-12-11T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-03T10:00:00+02:00",
+   "briefing_venue": "https://teams.microsoft.com/meet/331217663400583?p=mBqs37HusNPLL48FxL",
+   "contact_person": "Rabelani Mulaudzi",
+   "contact_email": "tenders@magalieswater.co.za",
+   "contact_phone": "014-597-4636",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Tender Advert for Bakubung reservoir.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=45a98d48-deea-4c34-ab0e-51f55d611e7f.pdf&downloadedFileName=Tender%20Advert%20for%20Bakubung%20reservoir.pdf"
+    },
+    {
+     "name": "Notice of extension for Bakung Reservoir.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=96e1bada-5057-4f2c-83f5-dd7f0d98c5d6.pdf&downloadedFileName=Notice%20of%20extension%20for%20Bakung%20Reservoir.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "8CE"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "reservoir construction / upgrade"
+   ],
+   "reasons": [
+    "Related work: reservoir construction / upgrade",
+    "Category: Civil engineering",
+    "Needs CIDB 8CE: possible subcontract / JV lead",
+    "Compulsory briefing was on 03 Nov 10:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176106",
+   "source": "etenders_portal",
+   "source_id": "176106",
+   "tender_no": "DWS08 1026 WTE",
+   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR NORTHERN OPERATIONS FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 7CE OR HIGHER ARE ELIGIBLE TO BID.",
+   "entity": "Water and Sanitation",
+   "province": "Gauteng",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "N/A-N/A-N/A-0001",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2027-01-14T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-23T09:00:00+02:00",
+   "briefing_venue": "Roodeplaat Training Centre (56 Moloto Rd (R573), Roodeplaat, Pretoria)",
+   "contact_person": "Ms Julia Dirane",
+   "contact_email": "bidenquirieswte@dws.gov.za",
+   "contact_phone": "012-336-7780",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "DWS08 1026 WTE Northern Cvil Maintenance Bid document .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=40409e05-1b11-4048-8603-a853e2a2da41.pdf&downloadedFileName=DWS08%201026%20WTE%20Northern%20Cvil%20Maintenance%20Bid%20document%20.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "7CE"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Civil engineering",
+    "Preferred province: Gauteng",
+    "Needs CIDB 7CE: possible subcontract / JV lead",
+    "Compulsory briefing was on 23 Nov 09:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176151",
+   "source": "etenders_portal",
+   "source_id": "176151",
+   "tender_no": "DWS11 1026 WTE",
+   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR STRATEGIC INFRASTRUCTURE ASSET MANAGEMENT FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 9CE ARE ELIGIBLE TO BID",
+   "entity": "Water and Sanitation",
+   "province": "National",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "N/A-N/A-N/A-",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2027-01-14T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-24T09:00:00+02:00",
+   "briefing_venue": "Roodeplaat Training Centre (56 Moloto Rd (R573), Roodeplaat, Pretoria)",
+   "contact_person": "Ms Julia Dirane",
+   "contact_email": "bidenquirieswte@dws.gov.za",
+   "contact_phone": "012-336-7780",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "DWS11 1026 WTE SIAM Civil Maintenance Bid doc.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b07ed8e7-0691-4574-8442-61cfe481d415.pdf&downloadedFileName=DWS11%201026%20WTE%20SIAM%20Civil%20Maintenance%20Bid%20doc.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "9CE"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Civil engineering",
+    "National tender (site may be anywhere)",
+    "Needs CIDB 9CE: possible subcontract / JV lead",
+    "Compulsory briefing was on 24 Nov 09:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176501",
+   "source": "etenders_portal",
+   "source_id": "176501",
+   "tender_no": "DWS09-0926WTE",
+   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR EASTERN OPERATIONS FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 9 CE OR HIGHER ARE ELIGIBLE TO BID",
+   "entity": "Water and Sanitation",
+   "province": "National",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "It is estimated that tenderers must have the CIDB contractor grading of 9 CE. Tenderer must have demonstrable experience in associated civil maintenance.",
+   "delivery_location": "157 Francis Baard Street-Pretoria Central-Pretoria-0001",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2027-01-14T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-17T10:00:00+02:00",
+   "briefing_venue": "R103 Prospect Road, Midmar Dam, Howick, 3290)",
+   "contact_person": "SCM-WTE",
+   "contact_email": "bidenquirieswte@dws.gov.za",
+   "contact_phone": "012-336-8151",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Advert for bid DWS09-0926WTE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4a083d89-69c8-4587-8d90-99d9fc18d43d.pdf&downloadedFileName=Advert%20for%20bid%20DWS09-0926WTE.pdf"
+    },
+    {
+     "name": "Bid Document for DWS09-0926WTE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=35295b23-5ea7-4a86-a919-f71a022c3790.pdf&downloadedFileName=Bid%20Document%20for%20DWS09-0926WTE.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "9CE"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Civil engineering",
+    "National tender (site may be anywhere)",
+    "Needs CIDB 9CE: possible subcontract / JV lead",
+    "Compulsory briefing was on 17 Nov 10:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176505",
+   "source": "etenders_portal",
+   "source_id": "176505",
+   "tender_no": "DWS10-0926 WTE",
+   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR SOUTHERN OPERATIONS FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 9CE ARE ELIGIBLE TO BID.",
+   "entity": "Water and Sanitation",
+   "province": "National",
+   "category": "Civil engineering",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "It is estimated that tenderers must have the CIDB contractor grading of 9 CE. Tenderer must have demonstrable experience in associated civil maintenance",
+   "delivery_location": "157 Francis Baard Street-Pretoria Central-Pretoria-0001",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2027-01-14T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-19T10:00:00+02:00",
+   "briefing_venue": "Dept Water and Sanitation, 2 Hargreaves Avenue, Qonce",
+   "contact_person": "SCM-WTE",
+   "contact_email": "bidenquirieswte@dws.gov.za",
+   "contact_phone": "012-336-8151",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "Advert for bid DWS10-0926WTE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=2115aee2-0982-4b67-ab76-42aa987e6e3a.pdf&downloadedFileName=Advert%20for%20bid%20DWS10-0926WTE.pdf"
+    },
+    {
+     "name": "Bid document for DWS10-0926WTE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4f4bfb6e-624b-4d74-8f2f-9e15289f5e97.pdf&downloadedFileName=Bid%20document%20for%20DWS10-0926WTE.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "9CE"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Civil engineering",
+    "National tender (site may be anywhere)",
+    "Needs CIDB 9CE: possible subcontract / JV lead",
+    "Compulsory briefing was on 19 Nov 10:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  }
+ ]
+}
