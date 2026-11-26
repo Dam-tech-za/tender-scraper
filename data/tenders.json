@@ -1,12 +1,12 @@
 {
  "meta": {
-  "generated_at": "2026-11-26T16:11:17+02:00",
-  "open_tenders_scanned": 2125,
+  "generated_at": "2026-11-26T22:03:51+02:00",
+  "open_tenders_scanned": 2154,
   "sources": {
    "etenders_portal": {
     "ok": true,
-    "count": 2127,
-    "seconds": 7.7
+    "count": 2157,
+    "seconds": 9.8
    }
   },
   "company": "Damtech",
