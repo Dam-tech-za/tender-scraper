@@ -1,12 +1,12 @@
 {
  "meta": {
-  "generated_at": "2026-11-25T22:26:02+02:00",
-  "open_tenders_scanned": 2180,
+  "generated_at": "2026-11-26T16:11:17+02:00",
+  "open_tenders_scanned": 2125,
   "sources": {
    "etenders_portal": {
     "ok": true,
-    "count": 2182,
-    "seconds": 10.2
+    "count": 2127,
+    "seconds": 7.7
    }
   },
   "company": "Damtech",
@@ -610,53 +610,6 @@
    "notified_at": null
   },
   {
-   "uid": "etenders:175430",
-   "source": "etenders_portal",
-   "source_id": "175430",
-   "tender_no": "ELM/5/10/2026T",
-   "title": "PANEL OF THREE SERVICE PROVIDERS TO SERVICING, REPAIRS AND MAINTENANCE OF EMALAHLENI VEHICLES FOR A PERIOD OF 36 MONTHS (AS AN AND WHEN REQUIRED).",
-   "entity": "Emalahleni Local Municipality",
-   "province": "Eastern Cape",
-   "category": "Other service activities",
-   "tender_type": "Request for Proposal",
-   "conditions": null,
-   "delivery_location": "Cacadu Extension-Lady frere-Cacadu-5410",
-   "published_at": "2026-10-23T00:00:00+02:00",
-   "closing_at": "2026-11-26T12:00:00+02:00",
-   "briefing_session": false,
-   "briefing_compulsory": false,
-   "briefing_at": null,
-   "briefing_venue": null,
-   "contact_person": "Mr. Y Sawa",
-   "contact_email": "saway@emalahlenilm.gov.za",
-   "contact_phone": "062-030-7859",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "ADVERT FOR PANEL OF THREE SERVICE PROVIDERS TO SERVICING,REPAIRS AND MAINTENANCE.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=9e836b63-6679-4607-b953-4c0ed1ffef67.pdf&downloadedFileName=ADVERT%20FOR%20PANEL%20OF%20THREE%20SERVICE%20PROVIDERS%20TO%20SERVICING%2CREPAIRS%20AND%20MAINTENANCE.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 30,
-   "band": "Low",
-   "services_matched": [
-    "building maintenance / repairs"
-   ],
-   "reasons": [
-    "Related work: building maintenance / repairs",
-    "No CIDB grading mentioned in the advert",
-    "Closes 26 Nov 12:00"
-   ],
-   "flags": [
-    "closing_soon"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
    "uid": "etenders:178275",
    "source": "etenders_portal",
    "source_id": "178275",
@@ -698,112 +651,6 @@
     "No CIDB grading mentioned in the advert"
    ],
    "flags": [],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:176456",
-   "source": "etenders_portal",
-   "source_id": "176456",
-   "tender_no": "DWS07-1026 WTE",
-   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR CENTRAL OPERATIONS FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 8CE OR HIGHER ARE ELIGIBLE TO BID",
-   "entity": "Water and Sanitation",
-   "province": "Gauteng",
-   "category": "Services: Civil",
-   "tender_type": "Request for Bid(Open-Tender)",
-   "conditions": null,
-   "delivery_location": "Lilian Ngoyi Street-Pretoria-Tshwane-0002",
-   "published_at": "2026-10-30T00:00:00+02:00",
-   "closing_at": "2027-01-14T11:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-11-26T10:00:00+02:00",
-   "briefing_venue": "Vaal Dam Area Office, 01 Plot 1 Mckenzie Street, Deneysville",
-   "contact_person": "Mr Charles Mokone",
-   "contact_email": "MokoneC@dws.gov.za",
-   "contact_phone": "066-124-2781",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "DWS07-1026 WTE Advert.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=b1d9f728-9e6a-4305-aec3-c47839cd8842.pdf&downloadedFileName=DWS07-1026%20WTE%20Advert.pdf"
-    },
-    {
-     "name": "DWS07-1026 Tender Document Civil Panel Central Operations .pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=2260c1f4-a130-468e-8af8-f2c2cff69d75.pdf&downloadedFileName=DWS07-1026%20Tender%20Document%20Civil%20Panel%20Central%20Operations%20.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [
-    "8CE"
-   ],
-   "score": 30,
-   "band": "Low",
-   "services_matched": [
-    "civil works"
-   ],
-   "reasons": [
-    "Related work: civil works",
-    "Category: Services: Civil",
-    "Preferred province: Gauteng",
-    "Needs CIDB 8CE: possible subcontract / JV lead",
-    "Compulsory briefing on 26 Nov 10:00"
-   ],
-   "flags": [
-    "cidb_required",
-    "briefing_compulsory"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:177742",
-   "source": "etenders_portal",
-   "source_id": "177742",
-   "tender_no": "RFQ  4612/26",
-   "title": "Appointment of a suitable qualified panel of plumbers to assist with plumbing repairs and maintenance services for all South African Weather Service (SAWS) regional offices and radar sites which are situated in all nine (9) provinces.",
-   "entity": "South African Weather Service",
-   "province": "Gauteng",
-   "category": "Services: General",
-   "tender_type": "Request for Quotation",
-   "conditions": null,
-   "delivery_location": "Irene Weather Office Main Road, Irene, within the Agricultural Research Council (ARC) Farm Doornkloo-Centurion,-Centurion,-0157",
-   "published_at": "2026-11-11T00:00:00+02:00",
-   "closing_at": "2026-11-26T11:00:00+02:00",
-   "briefing_session": false,
-   "briefing_compulsory": false,
-   "briefing_at": null,
-   "briefing_venue": null,
-   "contact_person": "Ms.Carol Lekalakala",
-   "contact_email": "Carol.lekalakala@weathersa.co.za",
-   "contact_phone": "012-367-6252",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "RFQ-4612  Appointment of  a panel of plumbing service providers.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=4a8ed1ef-fec4-45cb-9124-bcced8e0e46a.pdf&downloadedFileName=RFQ-4612%20%20Appointment%20of%20%20a%20panel%20of%20plumbing%20service%20providers.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 25,
-   "band": "Low",
-   "services_matched": [
-    "building maintenance / repairs"
-   ],
-   "reasons": [
-    "Related work: building maintenance / repairs",
-    "Mainly another trade (electrical / plumbing / mechanical...)",
-    "Preferred province: Gauteng",
-    "No CIDB grading mentioned in the advert",
-    "Request for Quotation (+5)",
-    "Closes 26 Nov 11:00"
-   ],
-   "flags": [
-    "closing_soon"
-   ],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
    "notified_at": null
@@ -1019,69 +866,6 @@
    "flags": [
     "briefing_missed",
     "closing_soon"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:176970",
-   "source": "etenders_portal",
-   "source_id": "176970",
-   "tender_no": "RFP170/2026",
-   "title": "APPOINTMENT OF A SERVICE PROVIDER TO SUPPLY, DELIVER AND OFFLOAD VARIOUS CONSTRUCTION MATERIALS AND ASSOCIATED ITEMS, ON AN AS- AND-WHEN REQUIRED BASIS FOR THE CONSTRUCTION OF TZANEEN DAM FOR A PERIOD OF TWELVE (12) MONTHS.",
-   "entity": "Development Bank of Southern Africa",
-   "province": "Limpopo",
-   "category": "Services: Professional",
-   "tender_type": "Request for Proposal",
-   "conditions": "Tender documents can be downloaded on DBSA website from 5 November 2026- https://www.dbsa.org/procurement. The closing time for receipt of Tenders is 23h55 on Friday, November 27, 2026.",
-   "delivery_location": "Deer Park Road-Tzaneen Dam (Doornhoek)-Tzaneen-0850",
-   "published_at": "2026-11-05T00:00:00+02:00",
-   "closing_at": "2026-11-27T23:30:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-11-13T11:00:00+02:00",
-   "briefing_venue": "Tzaneen – Tzaneen Dam (construction of the dam wall). Latitude: 23°47'58.10\"S (approx. coordinates)",
-   "contact_person": "Nokuthula Sangweni",
-   "contact_email": "NokuthulaSCM@dbsa.org",
-   "contact_phone": "011-313-3101",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "RFP170-2026 Q&A #1.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=4ab5f10a-82f1-49c2-83cd-73504c715b42.pdf&downloadedFileName=RFP170-2026%20Q%26A%20%231.pdf"
-    },
-    {
-     "name": "BOQ.zip",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=3fb34b74-ab57-49eb-ac99-8f56df1e8bee.zip&downloadedFileName=BOQ.zip"
-    },
-    {
-     "name": "RFP170.2026_Volume 1 of 3_Procedures_09 Nov 2026.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=1411eff0-5b8b-496e-a483-a60e6ebf4b0b.pdf&downloadedFileName=RFP170.2026_Volume%201%20of%203_Procedures_09%20Nov%202026.pdf"
-    },
-    {
-     "name": "RFP170.2026 Addendum 01.docx.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=f93b7e5b-f255-47a6-837f-dc2d8bf734d8.pdf&downloadedFileName=RFP170.2026%20Addendum%2001.docx.pdf"
-    },
-    {
-     "name": "RFP170.2026 Tender Documents.zip",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=8f8e852e-14bc-4862-b331-f50999d7ed1a.zip&downloadedFileName=RFP170.2026%20Tender%20Documents.zip"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 20,
-   "band": "Low",
-   "services_matched": [
-    "dam / pond repair or construction"
-   ],
-   "reasons": [
-    "Core service: dam / pond repair or construction",
-    "No CIDB grading mentioned in the advert",
-    "Compulsory briefing was on 13 Nov 11:00: missed"
-   ],
-   "flags": [
-    "briefing_missed"
    ],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
@@ -1562,6 +1346,71 @@
     "No CIDB grading mentioned in the advert",
     "Compulsory briefing was on 20 Nov 11:00: missed",
     "Closes 27 Nov 12:00"
+   ],
+   "flags": [
+    "briefing_missed",
+    "closing_soon"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176970",
+   "source": "etenders_portal",
+   "source_id": "176970",
+   "tender_no": "RFP170/2026",
+   "title": "APPOINTMENT OF A SERVICE PROVIDER TO SUPPLY, DELIVER AND OFFLOAD VARIOUS CONSTRUCTION MATERIALS AND ASSOCIATED ITEMS, ON AN AS- AND-WHEN REQUIRED BASIS FOR THE CONSTRUCTION OF TZANEEN DAM FOR A PERIOD OF TWELVE (12) MONTHS.",
+   "entity": "Development Bank of Southern Africa",
+   "province": "Limpopo",
+   "category": "Services: Professional",
+   "tender_type": "Request for Proposal",
+   "conditions": "Tender documents can be downloaded on DBSA website from 5 November 2026- https://www.dbsa.org/procurement. The closing time for receipt of Tenders is 23h55 on Friday, November 27, 2026.",
+   "delivery_location": "Deer Park Road-Tzaneen Dam (Doornhoek)-Tzaneen-0850",
+   "published_at": "2026-11-05T00:00:00+02:00",
+   "closing_at": "2026-11-27T23:30:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-13T11:00:00+02:00",
+   "briefing_venue": "Tzaneen – Tzaneen Dam (construction of the dam wall). Latitude: 23°47'58.10\"S (approx. coordinates)",
+   "contact_person": "Nokuthula Sangweni",
+   "contact_email": "NokuthulaSCM@dbsa.org",
+   "contact_phone": "011-313-3101",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "RFP170-2026 Q&A #1.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=4ab5f10a-82f1-49c2-83cd-73504c715b42.pdf&downloadedFileName=RFP170-2026%20Q%26A%20%231.pdf"
+    },
+    {
+     "name": "BOQ.zip",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=3fb34b74-ab57-49eb-ac99-8f56df1e8bee.zip&downloadedFileName=BOQ.zip"
+    },
+    {
+     "name": "RFP170.2026_Volume 1 of 3_Procedures_09 Nov 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1411eff0-5b8b-496e-a483-a60e6ebf4b0b.pdf&downloadedFileName=RFP170.2026_Volume%201%20of%203_Procedures_09%20Nov%202026.pdf"
+    },
+    {
+     "name": "RFP170.2026 Addendum 01.docx.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=f93b7e5b-f255-47a6-837f-dc2d8bf734d8.pdf&downloadedFileName=RFP170.2026%20Addendum%2001.docx.pdf"
+    },
+    {
+     "name": "RFP170.2026 Tender Documents.zip",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=8f8e852e-14bc-4862-b331-f50999d7ed1a.zip&downloadedFileName=RFP170.2026%20Tender%20Documents.zip"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 15,
+   "band": "Low",
+   "services_matched": [
+    "dam / pond repair or construction"
+   ],
+   "reasons": [
+    "Core service: dam / pond repair or construction",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing was on 13 Nov 11:00: missed",
+    "Closes 27 Nov 23:30"
    ],
    "flags": [
     "briefing_missed",
@@ -2115,6 +1964,62 @@
     "National tender (site may be anywhere)",
     "Needs CIDB 9CE: possible subcontract / JV lead",
     "Compulsory briefing was on 24 Nov 09:00: missed"
+   ],
+   "flags": [
+    "cidb_required",
+    "briefing_missed"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:176456",
+   "source": "etenders_portal",
+   "source_id": "176456",
+   "tender_no": "DWS07-1026 WTE",
+   "title": "FRAMEWORK CONTRACTORS FOR CIVIL MAINTENANCE AND OTHER RELATED WORKS FOR CENTRAL OPERATIONS FOR A PERIOD OF FOUR (4) YEARS. ONLY RESPONDENTS WITH CIDB GRADING 8CE OR HIGHER ARE ELIGIBLE TO BID",
+   "entity": "Water and Sanitation",
+   "province": "Gauteng",
+   "category": "Services: Civil",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "Lilian Ngoyi Street-Pretoria-Tshwane-0002",
+   "published_at": "2026-10-30T00:00:00+02:00",
+   "closing_at": "2027-01-14T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-11-26T10:00:00+02:00",
+   "briefing_venue": "Vaal Dam Area Office, 01 Plot 1 Mckenzie Street, Deneysville",
+   "contact_person": "Mr Charles Mokone",
+   "contact_email": "MokoneC@dws.gov.za",
+   "contact_phone": "066-124-2781",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "DWS07-1026 WTE Advert.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=b1d9f728-9e6a-4305-aec3-c47839cd8842.pdf&downloadedFileName=DWS07-1026%20WTE%20Advert.pdf"
+    },
+    {
+     "name": "DWS07-1026 Tender Document Civil Panel Central Operations .pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=2260c1f4-a130-468e-8af8-f2c2cff69d75.pdf&downloadedFileName=DWS07-1026%20Tender%20Document%20Civil%20Panel%20Central%20Operations%20.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [
+    "8CE"
+   ],
+   "score": 0,
+   "band": "Low",
+   "services_matched": [
+    "civil works"
+   ],
+   "reasons": [
+    "Related work: civil works",
+    "Category: Services: Civil",
+    "Preferred province: Gauteng",
+    "Needs CIDB 8CE: possible subcontract / JV lead",
+    "Compulsory briefing was on 26 Nov 10:00: missed"
    ],
    "flags": [
     "cidb_required",
