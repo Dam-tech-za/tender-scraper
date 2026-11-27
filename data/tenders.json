@@ -1,11 +1,11 @@
 {
  "meta": {
-  "generated_at": "2026-11-26T22:03:51+02:00",
-  "open_tenders_scanned": 2154,
+  "generated_at": "2026-11-27T16:08:44+02:00",
+  "open_tenders_scanned": 2107,
   "sources": {
    "etenders_portal": {
     "ok": true,
-    "count": 2157,
+    "count": 2112,
     "seconds": 9.8
    }
   },
@@ -16,6 +16,53 @@
   ]
  },
  "tenders": [
+  {
+   "uid": "etenders:180176",
+   "source": "etenders_portal",
+   "source_id": "180176",
+   "tender_no": "RFQNo3 27-11-2026",
+   "title": "Appointment of a Panel of 5 service providers to provide General Building Maintenance and Minor Repair Services to the National Arts Council on an As-and-When-required basis for a period of 2 years.",
+   "entity": "National Arts Council of South Africa",
+   "province": "Gauteng",
+   "category": "Services: Building",
+   "tender_type": "Request for Quotation",
+   "conditions": "h.Disclaimer: The NAC reserves the right not to make an appointment. i.The NAC reserves the right not to accept the lowest quote received. j.The NAC reserves the right to appoint more than one (1) service provider.",
+   "delivery_location": "66 Margaret Mcingana Cnr Gwigwi Mrwebi-Newtown-johannesburg-2113",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-01T12:00:00+02:00",
+   "briefing_session": false,
+   "briefing_compulsory": false,
+   "briefing_at": null,
+   "briefing_venue": null,
+   "contact_person": "Esona Zandile",
+   "contact_email": "supplychain@nac.org.za",
+   "contact_phone": "011-010-8850",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "RFQ No3 27-11-2026 APPOINTMENT OF A PANEL OF 5 SERVICE PROVIDERS TO PROVIDE GENERAL BUILDING MAINTENANCE AND MINOR REPAIR SERVICES TO THE NATIONAL ARTS COUNCIL ON AN AS-AND-WHEN-RE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c70a36d2-a49f-48f4-93e3-65004a72c9c2.pdf&downloadedFileName=RFQ%20No3%2027-11-2026%20APPOINTMENT%20OF%20A%20PANEL%20OF%205%20SERVICE%20PROVIDERS%20TO%20PROVIDE%20GENERAL%20BUILDING%20MAINTENANCE%20AND%20MINOR%20REPAIR%20SERVICES%20TO%20THE%20NATIONAL%20ARTS%20COUNCIL%20ON%20AN%20AS-AND-WHEN-RE.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 70,
+   "band": "Strong",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Services: Building",
+    "Preferred province: Gauteng",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)"
+   ],
+   "flags": [],
+   "excluded": false,
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
+   "notified_at": null
+  },
   {
    "uid": "etenders:178596",
    "source": "etenders_portal",
@@ -118,53 +165,57 @@
    "notified_at": null
   },
   {
-   "uid": "etenders:179510",
+   "uid": "etenders:180198",
    "source": "etenders_portal",
-   "source_id": "179510",
-   "tender_no": "RFQ-ROOF-001",
-   "title": "Steel and Concrete roof waterproofing",
-   "entity": "South African Nuclear Energy Corporation Limited",
-   "province": "North West",
-   "category": "Construction",
-   "tender_type": "Request for Information",
+   "source_id": "180198",
+   "tender_no": "27/2026/GAU/ROL",
+   "title": "REQUEST FOR QUOTATION (RFQ) FOR THE APPOINTMENT OF A CONTRACTOR (4GB) FOR DESIGN, DELIVERY AND INSTALLATION HALF LINE 8 AND 9 ROOF PLATFORM IN THE MAINTENANCE WORKSHOP FOR BRAAMFONTEIN ROLLING STOCK MAINTENANCE FACILITIES",
+   "entity": "Passenger Rail Agency of South Africa",
+   "province": "Gauteng",
+   "category": "Services: Civil",
+   "tender_type": "Request for Quotation",
    "conditions": null,
-   "delivery_location": "R104 Elias Motsoaledi Street (Church Street West Ext)-Pelindaba-Madibeng Municipality-0240",
-   "published_at": "2026-11-23T00:00:00+02:00",
-   "closing_at": "2026-11-27T11:00:00+02:00",
-   "briefing_session": false,
-   "briefing_compulsory": false,
-   "briefing_at": null,
-   "briefing_venue": null,
-   "contact_person": "Buyani Nsibande",
-   "contact_email": "scm@necsa.co.za",
-   "contact_phone": "012-305-6072",
-   "e_submission": true,
+   "delivery_location": "41 CARR STREET BRAAMFONTEIN-BRAAMFONTEIN-JOHANNESBURG-2001",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-14T10:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-07T11:00:00+02:00",
+   "briefing_venue": "41 CARR STREET, BRAAMFONTEIN",
+   "contact_person": "Tebogo Sethibe",
+   "contact_email": "Millicent.Sethibe@prasa.com",
+   "contact_phone": "011-085-7061",
+   "e_submission": false,
    "documents": [
     {
-     "name": "RFQ-ROOF-001.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=9cb88e27-33b2-4c9a-abe1-cd92379246b4.pdf&downloadedFileName=RFQ-ROOF-001.pdf"
+     "name": "ANNEXURE_B BOQ BRR ROOF_ACCESS PIT 8_and_9.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=c21c0ffc-5603-4fa9-9d8c-7d905f26a2cf.pdf&downloadedFileName=ANNEXURE_B%20BOQ%20BRR%20ROOF_ACCESS%20PIT%208_and_9.pdf"
+    },
+    {
+     "name": "Roof Access Design Drawings.zip",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=96e076f9-dca6-4bba-a6de-e41aa21a4cf4.zip&downloadedFileName=Roof%20Access%20Design%20Drawings.zip"
     }
    ],
    "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
    "cidb_required": [],
-   "score": 65,
+   "score": 70,
    "band": "Strong",
    "services_matched": [
-    "waterproofing",
-    "roof leaks / sealing"
+    "roof repair / maintenance"
    ],
    "reasons": [
-    "Core service: waterproofing, roof leaks / sealing",
-    "Category: Construction",
+    "Related work: roof repair / maintenance",
+    "Category: Services: Civil",
+    "Preferred province: Gauteng",
     "No CIDB grading mentioned in the advert",
-    "Request for Information (-5)",
-    "Closes 27 Nov 11:00"
+    "Request for Quotation (+5)",
+    "Compulsory briefing on 07 Dec 11:00"
    ],
    "flags": [
-    "closing_soon"
+    "briefing_compulsory"
    ],
    "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
    "notified_at": null
   },
   {
@@ -271,52 +322,99 @@
    "notified_at": null
   },
   {
-   "uid": "etenders:176939",
+   "uid": "etenders:180215",
    "source": "etenders_portal",
-   "source_id": "176939",
-   "tender_no": "Bid SAWS-486/26",
-   "title": "Appointment of a suitable qualified panel of General Building Maintenance service providers to assist with general building maintenance for inter alia all SAWS regional offices, radar sites and air quality monitoring stations which are situated in all nine (9) provinces).",
-   "entity": "South African Weather Service",
-   "province": "Gauteng",
-   "category": "Construction of buildings",
+   "source_id": "180215",
+   "tender_no": "NC/DALC/2094",
+   "title": "Completion of Outstanding Concrete Overnight Reservoir Construction Work at Majeng farm",
+   "entity": "Northern Cape - Agriculture and Land Reform",
+   "province": "Northern Cape",
+   "category": "Construction",
    "tender_type": "Request for Bid(Open-Tender)",
    "conditions": null,
-   "delivery_location": "HEAD OFFICE -Centurion Central-Centurion-0046",
-   "published_at": "2026-11-05T00:00:00+02:00",
-   "closing_at": "2026-11-27T11:00:00+02:00",
-   "briefing_session": false,
-   "briefing_compulsory": false,
-   "briefing_at": null,
-   "briefing_venue": null,
-   "contact_person": "Maletsatsi Sekhampu",
-   "contact_email": "tsatsi.sekhampu@weathersa.co.za",
-   "contact_phone": "012-367-6172",
-   "e_submission": true,
+   "delivery_location": "Vaalharts Research station-Vaalharts Research station-Jan Kempdrop-8550",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-11T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-04T10:00:00+02:00",
+   "briefing_venue": "Vaalharts Research station",
+   "contact_person": "Mr Xola robiyana",
+   "contact_email": "xolarobiyana@gmail.com",
+   "contact_phone": "082-560-8779",
+   "e_submission": false,
    "documents": [
     {
-     "name": "SAWS-486  General Building Maintenance panel of service providers.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=de77a1a6-18c1-4aaf-9ab7-932bc8852385.pdf&downloadedFileName=SAWS-486%20%20General%20Building%20Maintenance%20panel%20of%20service%20providers.pdf"
+     "name": "NC-DALC-2094.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1bd1cb57-ea92-4a92-ba99-7281f8f51769.pdf&downloadedFileName=NC-DALC-2094.pdf"
     }
    ],
    "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
    "cidb_required": [],
-   "score": 55,
+   "score": 50,
    "band": "Possible",
    "services_matched": [
-    "building maintenance / repairs"
+    "reservoir construction / upgrade"
    ],
    "reasons": [
-    "Related work: building maintenance / repairs",
-    "Category: Construction of buildings",
-    "Preferred province: Gauteng",
+    "Related work: reservoir construction / upgrade",
+    "Category: Construction",
     "No CIDB grading mentioned in the advert",
-    "Closes 27 Nov 11:00"
+    "Compulsory briefing on 04 Dec 10:00"
    ],
    "flags": [
-    "closing_soon"
+    "briefing_compulsory"
    ],
    "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:180322",
+   "source": "etenders_portal",
+   "source_id": "180322",
+   "tender_no": "MLM/2026-27/LED/001",
+   "title": "APPOINTMENT OF A SERVICE PROVIDER FOR SUPPLY FOR THE RENOVATIONS OF THE BAB BUILDING AND PROVISION OF A STANDBY WATER TANK IN MAKHANDA FOR MAKANA LOCAL MUNICIPALITY",
+   "entity": "Makana Local Municipality",
+   "province": "Eastern Cape",
+   "category": "Services: Building",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": "An electronic copy of the completed tender document with returnable documents MUST be submitted with tender submission saved in a flash drive. Failure to submit AN ORIGINAL HARD COPY AND A COPY ON USB will deem the bid non-responsive",
+   "delivery_location": "92 HIGH STREET-MAKHANDA-MAKHANDA-6139",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-11T12:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-03T11:00:00+02:00",
+   "briefing_venue": "CITY HALL",
+   "contact_person": "MR. X. KLAAS",
+   "contact_email": "xklaas@makana.gov.za",
+   "contact_phone": "046-603-6222",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "TEAR SHEET - 27 NOV 2026.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=928f2689-5c4c-4859-ba82-40ed038503b4.pdf&downloadedFileName=TEAR%20SHEET%20-%2027%20NOV%202026.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 50,
+   "band": "Possible",
+   "services_matched": [
+    "water storage tanks"
+   ],
+   "reasons": [
+    "Related work: water storage tanks",
+    "Category: Services: Building",
+    "No CIDB grading mentioned in the advert",
+    "Compulsory briefing on 03 Dec 11:00"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
    "notified_at": null
   },
   {
@@ -656,56 +754,6 @@
    "notified_at": null
   },
   {
-   "uid": "etenders:176833",
-   "source": "etenders_portal",
-   "source_id": "176833",
-   "tender_no": "ATM 2026/2027-10",
-   "title": "The Afrikaans Language Museum and Monument (ATM) hereby invites quotations for the provision of professional mechanical repair and maintenance services. The purpose of this invitation is to appoint a suitably qualified and experienced service provider to conduct inspections, servicing, preventative maintenance, fault-finding and repairs to ATM vehicles and mechanical equipment for a period of three (3) years.",
-   "entity": "Die Afrikaanse Taal Museum",
-   "province": "Western Cape",
-   "category": "Services: Professional",
-   "tender_type": "Request for Quotation",
-   "conditions": null,
-   "delivery_location": "Pastorie Avenue-Esterville-Paarl-7646",
-   "published_at": "2026-11-03T00:00:00+02:00",
-   "closing_at": "2026-11-27T11:00:00+02:00",
-   "briefing_session": false,
-   "briefing_compulsory": false,
-   "briefing_at": null,
-   "briefing_venue": null,
-   "contact_person": "Fabian Ontong",
-   "contact_email": "fin.assist@taalmuseum.co.za",
-   "contact_phone": "021-872-3441",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "ATM 2026-2027-10 SPECIALISED SERVICES FROM A QUALIFIED MECHANICAL REPAIR AND MAINTENANCE SERVICE PROVIDER FOR THE AFRIKAANS LANGUAGE MUSEUM AND MONUMENT (ATM), PAARL.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=38a3cd7b-b4dc-4911-8bc2-e08c0227e368.pdf&downloadedFileName=ATM%202026-2027-10%20SPECIALISED%20SERVICES%20FROM%20A%20QUALIFIED%20MECHANICAL%20REPAIR%20AND%20MAINTENANCE%20SERVICE%20PROVIDER%20FOR%20THE%20AFRIKAANS%20LANGUAGE%20MUSEUM%20AND%20MONUMENT%20%28ATM%29%2C%20PAARL.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 25,
-   "band": "Low",
-   "services_matched": [
-    "building maintenance / repairs"
-   ],
-   "reasons": [
-    "Related work: building maintenance / repairs",
-    "Mainly another trade (electrical / plumbing / mechanical...)",
-    "Preferred province: Western Cape",
-    "No CIDB grading mentioned in the advert",
-    "Request for Quotation (+5)",
-    "Closes 27 Nov 11:00"
-   ],
-   "flags": [
-    "closing_soon"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
    "uid": "etenders:172945",
    "source": "etenders_portal",
    "source_id": "172945",
@@ -815,58 +863,6 @@
     "No CIDB grading mentioned in the advert"
    ],
    "flags": [],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:177102",
-   "source": "etenders_portal",
-   "source_id": "177102",
-   "tender_no": "NRF/SAAO/RFQ/120206",
-   "title": "Appointment of a Panel of Suitably Qualified and Experienced Building Maintenance Contractors to Provide Construction and Maintenance Services at the NRF-SAAO Site in Sutherland, Northern Cape, for a Period of Three (3) Years",
-   "entity": "National Research Foundation",
-   "province": "Western Cape",
-   "category": "Services: Building",
-   "tender_type": "Request for Quotation",
-   "conditions": null,
-   "delivery_location": "Old Fraserburg Road,-Sutherland-Surtherland, Northern Cape-",
-   "published_at": "2026-11-05T00:00:00+02:00",
-   "closing_at": "2026-11-27T16:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-11-18T08:30:00+02:00",
-   "briefing_venue": "Old Fraserburg Road, Sutherland, Northern Cape, 6920",
-   "contact_person": "SCM",
-   "contact_email": "saao@saao.ac.za",
-   "contact_phone": "021-201-1634",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "RFQ 120206 - Building Maintenance Contract for 3  years.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=7f29598e-4246-4458-b1e7-21a043dfc0a6.pdf&downloadedFileName=RFQ%20120206%20-%20Building%20Maintenance%20Contract%20for%203%20%20years.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 20,
-   "band": "Low",
-   "services_matched": [
-    "building maintenance / repairs"
-   ],
-   "reasons": [
-    "Related work: building maintenance / repairs",
-    "Category: Services: Building",
-    "Preferred province: Western Cape",
-    "No CIDB grading mentioned in the advert",
-    "Request for Quotation (+5)",
-    "Compulsory briefing was on 18 Nov 08:30: missed",
-    "Closes 27 Nov 16:00"
-   ],
-   "flags": [
-    "briefing_missed",
-    "closing_soon"
-   ],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
    "notified_at": null
@@ -1200,6 +1196,104 @@
    "notified_at": null
   },
   {
+   "uid": "etenders:180253",
+   "source": "etenders_portal",
+   "source_id": "180253",
+   "tender_no": "RFQ 422",
+   "title": "DRILLING OF BOREHOLE, SUPPLY, INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG REGISTERING AUTHORITY/TRAFFIC STATION",
+   "entity": "North West - Department of Community Safety and Transport Management",
+   "province": "North West",
+   "category": "Services: General",
+   "tender_type": "Request for Quotation",
+   "conditions": "PLEASE REFER TO THE REQUEST FOR QUOTATION FORM 9RFQ)",
+   "delivery_location": "TAUNG REGISTERING AUTHORITY-TAUNG-TAUNG-8584",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-09T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-04T09:30:00+02:00",
+   "briefing_venue": "TAUNG REGISTERING AUTHORITY",
+   "contact_person": "MODISE MOKOTO",
+   "contact_email": "mimokoto@nwpg.gov.za",
+   "contact_phone": "018-200-8071",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "DRILLING OF BOREHOLE, SUPPLY, INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG REGISTERING AUTHORITY.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=567a4647-5354-4a61-84fd-c9f386ca9fc0.pdf&downloadedFileName=DRILLING%20OF%20BOREHOLE%2C%20SUPPLY%2C%20INSTALLATION%20OF%20WATER%20TANKS%20AND%20PRESSURE%20PUMP%20AT%20TAUNG%20REGISTERING%20AUTHORITY.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "water storage tanks"
+   ],
+   "reasons": [
+    "Related work: water storage tanks",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing on 04 Dec 09:30"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:180257",
+   "source": "etenders_portal",
+   "source_id": "180257",
+   "tender_no": "RFQ 421",
+   "title": "SUPPLY AND INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG LICENSING DEPARTMENT",
+   "entity": "North West - Department of Community Safety and Transport Management",
+   "province": "North West",
+   "category": "Services: General",
+   "tender_type": "Request for Quotation",
+   "conditions": "PLEASE REFER TO THE REQUEST FOR QUOTATION (RFQ)",
+   "delivery_location": "TAUNG LICENSING DEPARTMENT-TAUNG-TAUNG-8085",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-10T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-04T11:00:00+02:00",
+   "briefing_venue": "TAUNG LICENSING DEPARTMENT",
+   "contact_person": "MODISE MOKOTO",
+   "contact_email": "mimokoto@nwpg.gov.za",
+   "contact_phone": "018-200-8071",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "SUPPLY AND INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG LICENSE DEPARTEMENT.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1fcc2a71-25a4-4ac0-9f0e-c4bdd6c3ebf5.pdf&downloadedFileName=SUPPLY%20AND%20INSTALLATION%20OF%20WATER%20TANKS%20AND%20PRESSURE%20PUMP%20AT%20TAUNG%20LICENSE%20DEPARTEMENT.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "water storage tanks"
+   ],
+   "reasons": [
+    "Related work: water storage tanks",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing on 04 Dec 11:00"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
+   "notified_at": null
+  },
+  {
    "uid": "etenders:176435",
    "source": "etenders_portal",
    "source_id": "176435",
@@ -1299,57 +1393,6 @@
    ],
    "flags": [
     "briefing_missed"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:178397",
-   "source": "etenders_portal",
-   "source_id": "178397",
-   "tender_no": "QUOTATION 11/2026",
-   "title": "MAINTENANCE AND REPAIRS OF ROBERTSON LIBRARY’S ROOF",
-   "entity": "Langeberg Municipality",
-   "province": "Western Cape",
-   "category": "Construction of buildings",
-   "tender_type": "Request for Bid(Open-Tender)",
-   "conditions": "AS PER ATTACHED ADVERTISEMENT",
-   "delivery_location": "28 MAIN ROAD-ASHTON-ASHTON-6715",
-   "published_at": "2026-11-16T00:00:00+02:00",
-   "closing_at": "2026-11-27T12:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-11-20T11:00:00+02:00",
-   "briefing_venue": "AT 11H00, AT THE ROBERTSON LIBRARY 30 VAN REENEN STREET (OPPOSITE THE POST OFFICE), ROBERTSON, 6705.",
-   "contact_person": "MS FELICIA GUMEDE",
-   "contact_email": "fgumede@langeberg.gov.za",
-   "contact_phone": "023-626-8200",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "Quote 11 2026.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=ff08e13a-3959-4d20-8f66-0b9b26ca6029.pdf&downloadedFileName=Quote%2011%202026.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 15,
-   "band": "Low",
-   "services_matched": [
-    "roof repair / maintenance"
-   ],
-   "reasons": [
-    "Related work: roof repair / maintenance",
-    "Category: Construction of buildings",
-    "Preferred province: Western Cape",
-    "No CIDB grading mentioned in the advert",
-    "Compulsory briefing was on 20 Nov 11:00: missed",
-    "Closes 27 Nov 12:00"
-   ],
-   "flags": [
-    "briefing_missed",
-    "closing_soon"
    ],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
@@ -1592,65 +1635,6 @@
    ],
    "flags": [
     "briefing_missed"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:177105",
-   "source": "etenders_portal",
-   "source_id": "177105",
-   "tender_no": "RFQ 16902",
-   "title": "MAINTENANCE AND ENGINEERING BUILDING REFURBISHMENT AT CHIEF DAWID STUURMAN AIRPORT",
-   "entity": "Airports Company of South Africa",
-   "province": "Eastern Cape",
-   "category": "Services: Building",
-   "tender_type": "Request for Quotation",
-   "conditions": "Permit fees will apply. Kindly ensure that all required personal protective equipment (PPE) is worn.",
-   "delivery_location": "Allister Miller Dr-Walmer-Gqeberha-6070",
-   "published_at": "2026-11-06T00:00:00+02:00",
-   "closing_at": "2026-11-27T15:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-11-18T12:00:00+02:00",
-   "briefing_venue": "Information desk, Chief Dawid Stuurman Airport",
-   "contact_person": "Joseph Rulash",
-   "contact_email": "joseph.rulash@airports.co.za",
-   "contact_phone": "084-434-0582",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "RFQ_16902_Maintenance and Engineering Building Refurbishment at Chief Dawid Stuurman Airport.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=da23eabb-c007-4f70-bc2a-307362d38ce7.pdf&downloadedFileName=RFQ_16902_Maintenance%20and%20Engineering%20Building%20Refurbishment%20at%20Chief%20Dawid%20Stuurman%20Airport.pdf"
-    },
-    {
-     "name": "M&E building refurb functionality .pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=afb39c23-3511-492b-a574-3c3e3d7832cb.pdf&downloadedFileName=M%26E%20building%20refurb%20functionality%20.pdf"
-    },
-    {
-     "name": "NEC 3 ECC -M&E Building Refurb Final Final .pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=da5c8e3f-9094-44db-a609-821e468af279.pdf&downloadedFileName=NEC%203%20ECC%20-M%26E%20Building%20Refurb%20Final%20Final%20.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 5,
-   "band": "Low",
-   "services_matched": [
-    "building maintenance / repairs"
-   ],
-   "reasons": [
-    "Related work: building maintenance / repairs",
-    "Category: Services: Building",
-    "No CIDB grading mentioned in the advert",
-    "Request for Quotation (+5)",
-    "Compulsory briefing was on 18 Nov 12:00: missed",
-    "Closes 27 Nov 15:00"
-   ],
-   "flags": [
-    "briefing_missed",
-    "closing_soon"
    ],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
