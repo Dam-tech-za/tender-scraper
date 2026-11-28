@@ -1,12 +1,12 @@
 {
  "meta": {
-  "generated_at": "2026-11-27T21:52:36+02:00",
-  "open_tenders_scanned": 2131,
+  "generated_at": "2026-11-28T20:45:59+02:00",
+  "open_tenders_scanned": 2137,
   "sources": {
    "etenders_portal": {
     "ok": true,
-    "count": 2136,
-    "seconds": 8.3
+    "count": 2142,
+    "seconds": 11.9
    }
   },
   "company": "Damtech",
@@ -267,56 +267,6 @@
    "flags": [
     "briefing_compulsory"
    ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:175483",
-   "source": "etenders_portal",
-   "source_id": "175483",
-   "tender_no": "ATNS/RFP02/08/2026/27/FM-FAPE-BUILDING MAINTENANCE",
-   "title": "Appointment of a service provider for the Provision of Building Maintenance services at ATNS FAPE and remote sites for a period of five (5) years rate base contract on an as-and when required basis",
-   "entity": "Air Traffic and Navigation Services Company Limited",
-   "province": "National",
-   "category": "Services: Building",
-   "tender_type": "Request for Bid(Open-Tender)",
-   "conditions": null,
-   "delivery_location": "Allister Miller Drive-Walmer-Gqeberha (Port Elizabeth)-6070",
-   "published_at": "2026-10-23T00:00:00+02:00",
-   "closing_at": "2026-11-30T14:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": false,
-   "briefing_at": "2026-10-29T11:00:00+02:00",
-   "briefing_venue": "Meeting ID: 360 467 242 451 633 Passcode: FW2eC9Ti",
-   "contact_person": "Zanele Mbiza",
-   "contact_email": "Zanelemb@atns.co.za",
-   "contact_phone": "011-607-1000",
-   "e_submission": true,
-   "documents": [
-    {
-     "name": "Volume 1A - FAPE Building Maintenance 21_10_26.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=77ef00e0-a92d-41e7-ac40-a5a16482390d.pdf&downloadedFileName=Volume%201A%20-%20FAPE%20Building%20Maintenance%2021_10_26.pdf"
-    },
-    {
-     "name": "ADDENDUM NO 1-FAPE MAINTENANCE.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=5b82ced5-cf72-4278-8fc6-c8367e6fc71c.pdf&downloadedFileName=ADDENDUM%20NO%201-FAPE%20MAINTENANCE.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 58,
-   "band": "Possible",
-   "services_matched": [
-    "building maintenance / repairs"
-   ],
-   "reasons": [
-    "Related work: building maintenance / repairs",
-    "Category: Services: Building",
-    "National tender (site may be anywhere)",
-    "No CIDB grading mentioned in the advert"
-   ],
-   "flags": [],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
    "notified_at": null
@@ -612,6 +562,59 @@
    ],
    "excluded": false,
    "first_seen_at": "2026-11-27T21:52:36+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:175483",
+   "source": "etenders_portal",
+   "source_id": "175483",
+   "tender_no": "ATNS/RFP02/08/2026/27/FM-FAPE-BUILDING MAINTENANCE",
+   "title": "Appointment of a service provider for the Provision of Building Maintenance services at ATNS FAPE and remote sites for a period of five (5) years rate base contract on an as-and when required basis",
+   "entity": "Air Traffic and Navigation Services Company Limited",
+   "province": "National",
+   "category": "Services: Building",
+   "tender_type": "Request for Bid(Open-Tender)",
+   "conditions": null,
+   "delivery_location": "Allister Miller Drive-Walmer-Gqeberha (Port Elizabeth)-6070",
+   "published_at": "2026-10-23T00:00:00+02:00",
+   "closing_at": "2026-11-30T14:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": false,
+   "briefing_at": "2026-10-29T11:00:00+02:00",
+   "briefing_venue": "Meeting ID: 360 467 242 451 633 Passcode: FW2eC9Ti",
+   "contact_person": "Zanele Mbiza",
+   "contact_email": "Zanelemb@atns.co.za",
+   "contact_phone": "011-607-1000",
+   "e_submission": true,
+   "documents": [
+    {
+     "name": "Volume 1A - FAPE Building Maintenance 21_10_26.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=77ef00e0-a92d-41e7-ac40-a5a16482390d.pdf&downloadedFileName=Volume%201A%20-%20FAPE%20Building%20Maintenance%2021_10_26.pdf"
+    },
+    {
+     "name": "ADDENDUM NO 1-FAPE MAINTENANCE.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=5b82ced5-cf72-4278-8fc6-c8367e6fc71c.pdf&downloadedFileName=ADDENDUM%20NO%201-FAPE%20MAINTENANCE.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 48,
+   "band": "Possible",
+   "services_matched": [
+    "building maintenance / repairs"
+   ],
+   "reasons": [
+    "Related work: building maintenance / repairs",
+    "Category: Services: Building",
+    "National tender (site may be anywhere)",
+    "No CIDB grading mentioned in the advert",
+    "Closes 30 Nov 14:00"
+   ],
+   "flags": [
+    "closing_soon"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-25T09:56:53+02:00",
    "notified_at": null
   },
   {
@@ -1016,6 +1019,104 @@
    "notified_at": null
   },
   {
+   "uid": "etenders:180253",
+   "source": "etenders_portal",
+   "source_id": "180253",
+   "tender_no": "RFQ 422",
+   "title": "DRILLING OF BOREHOLE, SUPPLY, INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG REGISTERING AUTHORITY/TRAFFIC STATION",
+   "entity": "North West - Department of Community Safety and Transport Management",
+   "province": "North West",
+   "category": "Services: General",
+   "tender_type": "Request for Quotation",
+   "conditions": "PLEASE REFER TO THE REQUEST FOR QUOTATION FORM 9RFQ)",
+   "delivery_location": "TAUNG REGISTERING AUTHORITY-TAUNG-TAUNG-8584",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-09T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-04T09:30:00+02:00",
+   "briefing_venue": "TAUNG REGISTERING AUTHORITY",
+   "contact_person": "MODISE MOKOTO",
+   "contact_email": "mimokoto@nwpg.gov.za",
+   "contact_phone": "018-200-8071",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "DRILLING OF BOREHOLE, SUPPLY, INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG REGISTERING AUTHORITY.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=567a4647-5354-4a61-84fd-c9f386ca9fc0.pdf&downloadedFileName=DRILLING%20OF%20BOREHOLE%2C%20SUPPLY%2C%20INSTALLATION%20OF%20WATER%20TANKS%20AND%20PRESSURE%20PUMP%20AT%20TAUNG%20REGISTERING%20AUTHORITY.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "water storage tanks"
+   ],
+   "reasons": [
+    "Related work: water storage tanks",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing on 04 Dec 09:30"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
+   "notified_at": null
+  },
+  {
+   "uid": "etenders:180257",
+   "source": "etenders_portal",
+   "source_id": "180257",
+   "tender_no": "RFQ 421",
+   "title": "SUPPLY AND INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG LICENSING DEPARTMENT",
+   "entity": "North West - Department of Community Safety and Transport Management",
+   "province": "North West",
+   "category": "Services: General",
+   "tender_type": "Request for Quotation",
+   "conditions": "PLEASE REFER TO THE REQUEST FOR QUOTATION (RFQ)",
+   "delivery_location": "TAUNG LICENSING DEPARTMENT-TAUNG-TAUNG-8085",
+   "published_at": "2026-11-27T00:00:00+02:00",
+   "closing_at": "2026-12-10T11:00:00+02:00",
+   "briefing_session": true,
+   "briefing_compulsory": true,
+   "briefing_at": "2026-12-04T11:00:00+02:00",
+   "briefing_venue": "TAUNG LICENSING DEPARTMENT",
+   "contact_person": "MODISE MOKOTO",
+   "contact_email": "mimokoto@nwpg.gov.za",
+   "contact_phone": "018-200-8071",
+   "e_submission": false,
+   "documents": [
+    {
+     "name": "SUPPLY AND INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG LICENSE DEPARTEMENT.pdf",
+     "url": "https://www.etenders.gov.za/home/Download?blobName=1fcc2a71-25a4-4ac0-9f0e-c4bdd6c3ebf5.pdf&downloadedFileName=SUPPLY%20AND%20INSTALLATION%20OF%20WATER%20TANKS%20AND%20PRESSURE%20PUMP%20AT%20TAUNG%20LICENSE%20DEPARTEMENT.pdf"
+    }
+   ],
+   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
+   "cidb_required": [],
+   "score": 20,
+   "band": "Low",
+   "services_matched": [
+    "water storage tanks"
+   ],
+   "reasons": [
+    "Related work: water storage tanks",
+    "Mainly another trade (electrical / plumbing / mechanical...)",
+    "No CIDB grading mentioned in the advert",
+    "Request for Quotation (+5)",
+    "Compulsory briefing on 04 Dec 11:00"
+   ],
+   "flags": [
+    "briefing_compulsory"
+   ],
+   "excluded": false,
+   "first_seen_at": "2026-11-27T16:08:44+02:00",
+   "notified_at": null
+  },
+  {
    "uid": "etenders:171561",
    "source": "etenders_portal",
    "source_id": "171561",
@@ -1028,7 +1129,7 @@
    "conditions": "Tenders are to be submitted electronically via Eskom E- tendering site by the stipulated closing date and time. Please note it is the responsibility of the supplier to ensure that the tender submission is submitted before the closing time",
    "delivery_location": "Gourikwa Power Station--Mossel Bay-",
    "published_at": "2026-09-23T00:00:00+02:00",
-   "closing_at": "2026-11-30T10:00:00+02:00",
+   "closing_at": "2027-01-19T10:00:00+02:00",
    "briefing_session": true,
    "briefing_compulsory": true,
    "briefing_at": "2026-10-07T10:00:00+02:00",
@@ -1194,7 +1295,7 @@
    "conditions": "Tenders are to be submitted electronically via Eskom E- tendering site by the stipulated closing date and time. Please note it is the responsibility of the supplier to ensure that the tender submission is submitted before the closing time.",
    "delivery_location": "Ankerlig Power Station-Atlantis-Cape Town-7349",
    "published_at": "2026-09-23T00:00:00+02:00",
-   "closing_at": "2026-12-04T10:00:00+02:00",
+   "closing_at": "2027-01-21T10:00:00+02:00",
    "briefing_session": true,
    "briefing_compulsory": true,
    "briefing_at": "2026-10-09T10:00:00+02:00",
@@ -1344,104 +1445,6 @@
    "notified_at": null
   },
   {
-   "uid": "etenders:180253",
-   "source": "etenders_portal",
-   "source_id": "180253",
-   "tender_no": "RFQ 422",
-   "title": "DRILLING OF BOREHOLE, SUPPLY, INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG REGISTERING AUTHORITY/TRAFFIC STATION",
-   "entity": "North West - Department of Community Safety and Transport Management",
-   "province": "North West",
-   "category": "Services: General",
-   "tender_type": "Request for Quotation",
-   "conditions": "PLEASE REFER TO THE REQUEST FOR QUOTATION FORM 9RFQ)",
-   "delivery_location": "TAUNG REGISTERING AUTHORITY-TAUNG-TAUNG-8584",
-   "published_at": "2026-11-27T00:00:00+02:00",
-   "closing_at": "2026-12-09T11:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-12-04T09:30:00+02:00",
-   "briefing_venue": "TAUNG REGISTERING AUTHORITY",
-   "contact_person": "MODISE MOKOTO",
-   "contact_email": "mimokoto@nwpg.gov.za",
-   "contact_phone": "018-200-8071",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "DRILLING OF BOREHOLE, SUPPLY, INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG REGISTERING AUTHORITY.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=567a4647-5354-4a61-84fd-c9f386ca9fc0.pdf&downloadedFileName=DRILLING%20OF%20BOREHOLE%2C%20SUPPLY%2C%20INSTALLATION%20OF%20WATER%20TANKS%20AND%20PRESSURE%20PUMP%20AT%20TAUNG%20REGISTERING%20AUTHORITY.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 20,
-   "band": "Low",
-   "services_matched": [
-    "water storage tanks"
-   ],
-   "reasons": [
-    "Related work: water storage tanks",
-    "Mainly another trade (electrical / plumbing / mechanical...)",
-    "No CIDB grading mentioned in the advert",
-    "Request for Quotation (+5)",
-    "Compulsory briefing on 04 Dec 09:30"
-   ],
-   "flags": [
-    "briefing_compulsory"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-27T16:08:44+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:180257",
-   "source": "etenders_portal",
-   "source_id": "180257",
-   "tender_no": "RFQ 421",
-   "title": "SUPPLY AND INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG LICENSING DEPARTMENT",
-   "entity": "North West - Department of Community Safety and Transport Management",
-   "province": "North West",
-   "category": "Services: General",
-   "tender_type": "Request for Quotation",
-   "conditions": "PLEASE REFER TO THE REQUEST FOR QUOTATION (RFQ)",
-   "delivery_location": "TAUNG LICENSING DEPARTMENT-TAUNG-TAUNG-8085",
-   "published_at": "2026-11-27T00:00:00+02:00",
-   "closing_at": "2026-12-10T11:00:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-12-04T11:00:00+02:00",
-   "briefing_venue": "TAUNG LICENSING DEPARTMENT",
-   "contact_person": "MODISE MOKOTO",
-   "contact_email": "mimokoto@nwpg.gov.za",
-   "contact_phone": "018-200-8071",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "SUPPLY AND INSTALLATION OF WATER TANKS AND PRESSURE PUMP AT TAUNG LICENSE DEPARTEMENT.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=1fcc2a71-25a4-4ac0-9f0e-c4bdd6c3ebf5.pdf&downloadedFileName=SUPPLY%20AND%20INSTALLATION%20OF%20WATER%20TANKS%20AND%20PRESSURE%20PUMP%20AT%20TAUNG%20LICENSE%20DEPARTEMENT.pdf"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 20,
-   "band": "Low",
-   "services_matched": [
-    "water storage tanks"
-   ],
-   "reasons": [
-    "Related work: water storage tanks",
-    "Mainly another trade (electrical / plumbing / mechanical...)",
-    "No CIDB grading mentioned in the advert",
-    "Request for Quotation (+5)",
-    "Compulsory briefing on 04 Dec 11:00"
-   ],
-   "flags": [
-    "briefing_compulsory"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-27T16:08:44+02:00",
-   "notified_at": null
-  },
-  {
    "uid": "etenders:176435",
    "source": "etenders_portal",
    "source_id": "176435",
@@ -1541,71 +1544,6 @@
    ],
    "flags": [
     "briefing_missed"
-   ],
-   "excluded": false,
-   "first_seen_at": "2026-11-25T09:56:53+02:00",
-   "notified_at": null
-  },
-  {
-   "uid": "etenders:176970",
-   "source": "etenders_portal",
-   "source_id": "176970",
-   "tender_no": "RFP170/2026",
-   "title": "APPOINTMENT OF A SERVICE PROVIDER TO SUPPLY, DELIVER AND OFFLOAD VARIOUS CONSTRUCTION MATERIALS AND ASSOCIATED ITEMS, ON AN AS- AND-WHEN REQUIRED BASIS FOR THE CONSTRUCTION OF TZANEEN DAM FOR A PERIOD OF TWELVE (12) MONTHS.",
-   "entity": "Development Bank of Southern Africa",
-   "province": "Limpopo",
-   "category": "Services: Professional",
-   "tender_type": "Request for Proposal",
-   "conditions": "Tender documents can be downloaded on DBSA website from 5 November 2026- https://www.dbsa.org/procurement. The closing time for receipt of Tenders is 23h55 on Friday, November 27, 2026.",
-   "delivery_location": "Deer Park Road-Tzaneen Dam (Doornhoek)-Tzaneen-0850",
-   "published_at": "2026-11-05T00:00:00+02:00",
-   "closing_at": "2026-11-27T23:30:00+02:00",
-   "briefing_session": true,
-   "briefing_compulsory": true,
-   "briefing_at": "2026-11-13T11:00:00+02:00",
-   "briefing_venue": "Tzaneen – Tzaneen Dam (construction of the dam wall). Latitude: 23°47'58.10\"S (approx. coordinates)",
-   "contact_person": "Nokuthula Sangweni",
-   "contact_email": "NokuthulaSCM@dbsa.org",
-   "contact_phone": "011-313-3101",
-   "e_submission": false,
-   "documents": [
-    {
-     "name": "RFP170-2026 Q&A #1.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=4ab5f10a-82f1-49c2-83cd-73504c715b42.pdf&downloadedFileName=RFP170-2026%20Q%26A%20%231.pdf"
-    },
-    {
-     "name": "BOQ.zip",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=3fb34b74-ab57-49eb-ac99-8f56df1e8bee.zip&downloadedFileName=BOQ.zip"
-    },
-    {
-     "name": "RFP170.2026_Volume 1 of 3_Procedures_09 Nov 2026.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=1411eff0-5b8b-496e-a483-a60e6ebf4b0b.pdf&downloadedFileName=RFP170.2026_Volume%201%20of%203_Procedures_09%20Nov%202026.pdf"
-    },
-    {
-     "name": "RFP170.2026 Addendum 01.docx.pdf",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=f93b7e5b-f255-47a6-837f-dc2d8bf734d8.pdf&downloadedFileName=RFP170.2026%20Addendum%2001.docx.pdf"
-    },
-    {
-     "name": "RFP170.2026 Tender Documents.zip",
-     "url": "https://www.etenders.gov.za/home/Download?blobName=8f8e852e-14bc-4862-b331-f50999d7ed1a.zip&downloadedFileName=RFP170.2026%20Tender%20Documents.zip"
-    }
-   ],
-   "url": "https://www.etenders.gov.za/Home/opportunities?id=1",
-   "cidb_required": [],
-   "score": 15,
-   "band": "Low",
-   "services_matched": [
-    "dam / pond repair or construction"
-   ],
-   "reasons": [
-    "Core service: dam / pond repair or construction",
-    "No CIDB grading mentioned in the advert",
-    "Compulsory briefing was on 13 Nov 11:00: missed",
-    "Closes 27 Nov 23:30"
-   ],
-   "flags": [
-    "briefing_missed",
-    "closing_soon"
    ],
    "excluded": false,
    "first_seen_at": "2026-11-25T09:56:53+02:00",
